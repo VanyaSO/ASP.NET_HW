@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw_1", "hw_1\hw_1.csproj", "{AD91BBA7-EC15-4FEE-9328-8B8E9D9C094C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dop_1", "dop_1\dop_1.csproj", "{673C6FFE-5CEB-4019-B04F-01CCBD2A9DAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD91BBA7-EC15-4FEE-9328-8B8E9D9C094C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD91BBA7-EC15-4FEE-9328-8B8E9D9C094C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD91BBA7-EC15-4FEE-9328-8B8E9D9C094C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD91BBA7-EC15-4FEE-9328-8B8E9D9C094C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{673C6FFE-5CEB-4019-B04F-01CCBD2A9DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{673C6FFE-5CEB-4019-B04F-01CCBD2A9DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{673C6FFE-5CEB-4019-B04F-01CCBD2A9DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{673C6FFE-5CEB-4019-B04F-01CCBD2A9DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

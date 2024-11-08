@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "zuXau39jaP2MRlyDRE+r3XpJu1ezJwTdpiGMlLMmvNQ=",
+  "Source": "hw_1",
+  "BasePath": "_content/hw_1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "hw_1/wwwroot",
+      "Source": "hw_1",
+      "ContentRoot": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_1/hw_1/wwwroot/",
+      "BasePath": "_content/hw_1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
