@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "lDDnD/3OE2pHJLLcVndvYH9SB8Q+nKT+Dfz68qHt4KA=",
+  "Source": "hw_3_dop_1",
+  "BasePath": "_content/hw_3_dop_1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "hw_3_dop_1/wwwroot",
+      "Source": "hw_3_dop_1",
+      "ContentRoot": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_3/hw_3_dop_1/wwwroot/",
+      "BasePath": "_content/hw_3_dop_1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

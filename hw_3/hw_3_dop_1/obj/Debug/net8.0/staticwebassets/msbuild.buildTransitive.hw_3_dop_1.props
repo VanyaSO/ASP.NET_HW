@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/hw_3_dop_1.props" />
+</Project>
