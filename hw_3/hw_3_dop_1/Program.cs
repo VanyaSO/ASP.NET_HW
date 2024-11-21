@@ -30,13 +30,4 @@ app.Map("/upload", async (context) =>
     }
 });
 
-// app.Run(async (context) =>
-// {
-//     context.Response.StatusCode = 404;
-//     await context.Response.WriteAsync("Page not found");
-// });
-
-
-
-
 app.Run();
