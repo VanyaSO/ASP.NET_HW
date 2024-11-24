@@ -1,0 +1,37 @@
+@model IEnumerable<Course>
+
+@{
+    ViewData["Title"] = "Courses";
+    var successMessage = TempData["SuccessMessage"];
+    var errorMessage = TempData["ErrorMessage"];
+}
+
+<h1 class="mb-5">@ViewData["Title"]</h1>
+@if (successMessage != null)
+{
+    <div class="alert alert-success">
+        @successMessage
+    </div>
+} 
+else if (errorMessage != null)
+{
+    <div class="alert alert-danger">
+        @errorMessage
+    </div> 
+}
+
+<div class="courses">
+    @foreach (var course in Model)
+    {
+        <div class="course-card">
+            <div>
+                <h3 class="mb-3">@course.Name</h3>
+                <p>@course.Description</p>
+            </div>
+            <div>
+                <p>Seats available:  @(course.NumberSeats-course.BusySeats)/@course.NumberSeats</p>
+                <button type="button" class="btn btn-primary w-100 js--course-card__subscribe-btn" data-bs-toggle="modal" data-course-id="@course.Id" data-bs-target="#subscribeModal" @(course.NumberSeats == course.BusySeats ? "disabled" : "")>Subscribe</button>
+            </div>
+        </div>
+    }
+</div>
