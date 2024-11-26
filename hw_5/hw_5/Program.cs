@@ -20,6 +20,8 @@ using (var scope = app.Services.CreateScope())
     scope.ServiceProvider.GetRequiredService<Database>().Init();
 }
 
+
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 

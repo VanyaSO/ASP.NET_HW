@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "BXDmfMrpMPP7vTlz0F1VQlDXHtZYg7NRqC9D3vcYfv8=",
+  "Source": "hw_6",
+  "BasePath": "_content/hw_6",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "hw_6/wwwroot",
+      "Source": "hw_6",
+      "ContentRoot": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_6/hw_6/wwwroot/",
+      "BasePath": "_content/hw_6",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_6/hw_6/wwwroot/css/site.css",
+      "SourceId": "hw_6",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_6/hw_6/wwwroot/",
+      "BasePath": "_content/hw_6",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    }
+  ]
+}
