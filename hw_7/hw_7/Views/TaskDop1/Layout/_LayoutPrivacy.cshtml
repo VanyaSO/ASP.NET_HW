@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <title>@ViewData["Title"]</title>
+</head>
+<body style="background: #e1d68d">
+@await Html.PartialAsync("_Header")
+<div class="container">
+    @RenderBody()
+</div>
+</body>
+</html>

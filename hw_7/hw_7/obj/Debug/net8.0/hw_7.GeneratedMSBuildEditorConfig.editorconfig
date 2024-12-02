@@ -1,0 +1,95 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = hw_7
+build_property.RootNamespace = hw_7
+build_property.ProjectDir = /Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/Views/TaskDop3/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFza0RvcDMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/Views/TaskDop5/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFza0RvcDUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/Views/TaskDop5/Table/_Table.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFza0RvcDUvVGFibGUvX1RhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/Views/TaskDop5/Table/_TableBody.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFza0RvcDUvVGFibGUvX1RhYmxlQm9keS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/Views/Shared/_Message.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19NZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/Views/TaskCommon/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFza0NvbW1vbi9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/Views/TaskDop1/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFza0RvcDEvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/Views/TaskDop1/Layout/_LayoutIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFza0RvcDEvTGF5b3V0L19MYXlvdXRJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/Views/TaskDop1/Layout/_LayoutPrivacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFza0RvcDEvTGF5b3V0L19MYXlvdXRQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/Views/TaskDop1/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFza0RvcDEvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/Views/TaskDop4/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFza0RvcDQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_7/hw_7/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-n0qyt8hh7u

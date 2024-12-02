@@ -1,0 +1,4 @@
+@model (string message, bool error)
+<div class="alert @(Model.error ? "alert-danger" : "alert-success") text-center">
+    @Model.message
+</div>

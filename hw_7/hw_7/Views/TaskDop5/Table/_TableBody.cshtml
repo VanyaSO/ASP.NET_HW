@@ -1,0 +1,20 @@
+@model hw_7.Controllers.TableViewModel
+
+@if (Model.Items.Any())
+{
+    @foreach (var item in Model.Items)
+    {
+        <tr>
+            @foreach (var property in Model.Type.GetProperties())
+            {
+                <td>@property.GetValue(item)</td>
+            }
+        </tr>
+    }
+}
+else
+{
+    <tr>
+        <td class="text-center" colspan="@Model.Type.GetProperties().Length">Not found</td>
+    </tr>
+}

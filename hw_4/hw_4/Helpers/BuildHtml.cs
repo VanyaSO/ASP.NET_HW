@@ -55,7 +55,6 @@ public static class BuildHtml
         return tableHtml.ToString();
     }
 
-
     public static string GenerateHtmlPage(string body, string header)
     {
         string html = $$"""

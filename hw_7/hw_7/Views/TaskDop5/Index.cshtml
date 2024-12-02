@@ -1,0 +1,15 @@
+﻿@using hw_7.Controllers
+
+@model TableViewModel
+
+<h1 class="text-center mb-4">Users</h1>
+
+@Html.Partial("Table/_Table", Model)
+
+@section Scripts
+{
+    <script>
+        tableFilters("/TaskDop5/Sort", "/TaskDop5/Search");
+    </script>
+}
+

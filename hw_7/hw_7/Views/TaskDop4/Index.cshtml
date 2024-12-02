@@ -1,0 +1,34 @@
+﻿@model List<string>
+<h1 class="text-center mb-4">Обратная связь</h1>
+
+<form action="~/TaskDop4/Send" method="post" style="max-width: 400px; margin: 0 auto 32px" data-ajax-loading="#load" data-ajax-update="#result" data-ajax="true">
+    <div class="form-group mb-3">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="Email">
+    </div>
+    <div class="form-group mb-5">
+        <label for="theme">Тема</label>
+        <select class="form-control" name="Theme" id="theme">
+            @foreach (var theme in Model)
+            {
+                <option value="@theme">@theme</option>
+            }
+        </select>
+    </div>
+    <div class="form-group mb-5 flex-column">
+        <label for="message">Сообщение</label>
+        <textarea class="form-control" name="Message" id="message" cols="30" rows="10" style="resize: none"></textarea>
+    </div>
+    <div class="text-center">
+        <button type="submit" class="btn btn-primary">Отправить</button>
+    </div>
+</form>
+
+<div id="load" style="display:none; text-align: center">Loading...</div>
+<div id="result" class="mx-auto mb-3 w-50"></div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-ajax-unobtrusive@3.2.6/dist/jquery.unobtrusive-ajax.min.js"></script>
+}
+

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Views\TaskDop3\Index.cshtml" />
+      <AdditionalFiles Include="Views\TaskDop5\Index.cshtml" />
+      <AdditionalFiles Include="Views\TaskDop5\Table\_Table.cshtml" />
+      <AdditionalFiles Include="Views\TaskDop5\Table\_TableBody.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\TaskDop6\Table\_Table.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\TaskDop6\Table\_TableBody.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\TaskDop6\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\Table\_Table.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Shared\Table\_TableBody.cshtml" />
+    </ItemGroup>
+
+</Project>

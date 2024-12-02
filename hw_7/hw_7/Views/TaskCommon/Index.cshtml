@@ -1,0 +1,59 @@
+﻿@{
+    var currencies = new Dictionary<string, double>
+    {
+        { "LCR", 0.85 },
+        { "VLM", 4.20 },
+        { "QRC", 0.15 },
+        { "NBP", 3.67 },
+        { "USD", 0.99 },
+        { "UAH", 36.90 },
+    };
+
+    string? currencyFrom = "", currencyTo = "";
+    double amount = 0, result = 0;
+
+    var request = Context.Request;
+    
+    if (request.Method == HttpMethods.Post)
+    {
+        currencyFrom = request.Form["CurrencyFrom"];
+        currencyTo = request.Form["CurrencyTo"];
+        amount = double.Parse(request.Form["Amount"]);
+
+        if (currencies.ContainsKey(currencyFrom) && currencies.ContainsKey(currencyTo))
+        {
+            result = amount * (currencies[currencyTo] / currencies[currencyFrom]);
+        }
+    }
+}
+
+<h1 class="text-center mb-4">Currency exchanges calculator</h1>
+<form action="/" method="post" class="d-flex justify-content-center align-items-end gap-3">
+    <div class="form-group" style="width: 200px;">
+        <label for="currencyFrom">From</label>
+        <select name="CurrencyFrom" id="currencyFrom" class="form-control mt-1" value="@currencyFrom" style="height: 40px;">
+            @foreach (var curr in currencies.Keys)
+            {
+                <option>@curr</option>
+            }
+        </select>
+    </div>
+    <div class="form-group" style="width: 200px;">
+        <label for="currencyTo">To</label>
+        <select name="CurrencyTo" id="currencyTo" class="form-control mt-1" value="@currencyTo" style="height: 40px;">
+            @foreach (var curr in currencies.Keys)
+            {
+                <option>@curr</option>
+            }
+        </select>
+    </div>
+    <div class="form-group" style="width: 200px;">
+        <label for="amount">Amount</label>
+        <input type="number" id="amount" class="form-control" name="Amount">
+    </div>
+    <button type="submit" class="btn btn-dark" style="height: 40px;">Calculate</button>
+</form>
+
+<div class="text-center">
+    @Math.Floor(result) @currencyTo
+</div>
