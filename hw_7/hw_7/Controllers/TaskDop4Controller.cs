@@ -14,7 +14,7 @@ public class TaskDop4Controller : Controller
         SmtpServer = "smtp.gmail.com",
         Port = 587,
         UserName = "ushachovg324@gmail.com",
-        Password = "gwhv laef eljn mbwo"
+        Password = "gwhv laef eljn"
     };
     
     public IActionResult Index()
