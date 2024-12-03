@@ -4,30 +4,33 @@
 
 @{
     var properties = Model.Type.GetProperties();
-    var listSortBy = Model.SortBy as List<string> ;
-    var listSearchBy = Model.SearchBy as List<string>;
+    var listSortBy = Model.SortBy as List<string>;
+    var listSearchBy = Model.SearchBy as List<string> ?? null;
 
     string tableClasses = ViewBag.TableClass ?? "";
 }
 
 <div class="table-block js--table-block @tableClasses">
-    <div class="table-block__search js--table-block__search">
-        <div class="table-block__search_input_holder js--table-block__search_input_holder">
-            <input type="text" class="table-block__search_input" name="value" placeholder="Value to search" />
-            <select class="table-block__search_select" name="searchOption">
-                @foreach (string option in listSearchBy)
-                {
-                <option value="@option">@option</option>
-                }
-            </select>
-            <button type="button" class="search-icon js--table-block__search_toggle">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                </svg>
-            </button>
+    @if (listSearchBy != null && listSearchBy.Count > 0)
+    {
+        <div class="table-block__search js--table-block__search">
+            <div class="table-block__search_input_holder js--table-block__search_input_holder">
+                <input type="text" class="table-block__search_input" name="value" placeholder="Value to search" />
+                <select class="table-block__search_select" name="searchOption">
+                    @foreach (string option in listSearchBy)
+                    {
+                        <option value="@option">@option</option>
+                    }
+                </select>
+                <button type="button" class="search-icon js--table-block__search_toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                    </svg>
+                </button>
+            </div>
+            <span class="close js--table-block__search_toggle"></span>
         </div>
-        <span class="close js--table-block__search_toggle"></span>
-    </div>
+    }
     <table class="table-block__table table">
         <thead class="thead-dark">
         <tr>
