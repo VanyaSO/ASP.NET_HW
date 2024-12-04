@@ -1,0 +1,37 @@
+@model List<Employee>
+
+<h1 class="mb-5 text-center">Employees</h1>
+
+@{
+    int i = 0;
+}
+@if (Model.Count != 0)
+{
+    <form action="~/Employee/Index" method="post">
+        <button type="submit" class="mb-3 btn btn-dark">Save</button>
+        <table class="table">
+            <thead>
+            <th>Id</th>
+            <th>Full name</th>
+            <th>Salary</th>
+            </thead>
+            <tbody>
+            @foreach (var empl in Model)
+            {
+                <tr>
+                    <td>
+                        @empl.Id
+                        <input type="number" class="form-control" name="Employees[@i].Id" value="@empl.Id" hidden>
+                    </td>
+                    <td>@empl.FullName</td>
+                    <td>
+                        <input type="number" class="form-control" name="Employees[@i].Salary" value="@empl.Salary" hidden>
+                        <input type="number" class="form-control" name="Employees[@i].NewSalary" value="@empl.Salary">
+                    </td>
+                </tr>
+                i++;
+            }
+            </tbody>
+        </table>
+    </form>
+}

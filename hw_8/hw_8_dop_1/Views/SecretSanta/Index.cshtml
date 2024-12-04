@@ -1,0 +1,26 @@
+@model List<string>;
+
+<h1 class="mb-5 text-center">Add participants</h1>
+
+<div style="max-width: 400px; margin: 0 auto;">
+    <form action="~/SecretSanta" method="post" data-ajax-update="#participants" data-ajax="true">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" name="Name" id="name">
+        <button type="submit" class="btn btn-primary w-100 mt-3">Add</button>
+    </form>
+    <a href="~/SecretSanta/Distribute" class="btn btn-primary w-100 mt-3">Distribute</a>
+    <form action="~/SecretSanta/Clear" method="post" data-ajax-update="#participants" data-ajax="true">
+        <button type="submit" class="btn btn-secondary w-100 mt-3">Clear</button>
+    </form>
+    <div class="mt-3" id="participants">
+        @await Html.PartialAsync("_Participants", Model)
+    </div>
+</div>
+
+
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-ajax-unobtrusive@3.2.6/dist/jquery.unobtrusive-ajax.min.js"></script>
+}
+

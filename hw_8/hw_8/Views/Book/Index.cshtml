@@ -1,0 +1,5 @@
+@model hw_8.ViewModels.TableViewModel
+
+<h1 class="mb-5 text-center">Books</h1>
+<a href="~/Book/Add" class="btn btn-primary font-monospace mb-2 bg-black">+</a>
+@await Html.PartialAsync("Table/_Table", Model)

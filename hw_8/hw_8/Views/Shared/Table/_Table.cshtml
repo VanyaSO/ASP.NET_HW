@@ -1,0 +1,26 @@
+@using System.Reflection
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model hw_8.ViewModels.TableViewModel
+
+@{
+    var properties = Model.Type.GetProperties();
+    string tableClasses = ViewBag.TableClass ?? "";
+}
+
+<div class="table-block js--table-block @tableClasses">
+    <table class="table-block__table table">
+        <thead class="thead-dark">
+        <tr>
+            @foreach (var property in properties)
+            {
+            <th>
+                @property.Name
+            </th>
+            }
+        </tr>
+        </thead>
+        <tbody class="table-block__tbody js--table-block__tbody">
+        @await Html.PartialAsync("Table/_TableBody", Model)
+        </tbody>
+    </table>
+</div>
