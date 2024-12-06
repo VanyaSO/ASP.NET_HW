@@ -1,0 +1,33 @@
+@model hw_9.Models.Book
+
+<div class="text-center">
+    <cosmic-header title="Update '@Model.Title' "></cosmic-header>
+</div>
+
+<form asp-controller="Book" asp-action="Update" asp-antiforgery="true" method="post" asp-route-id="@Model.Id"
+      style="max-width: 400px; margin: 0 auto;">
+    <div class="mb-3">
+        <label class="mb-1" asp-for="Title">Title</label>
+        <input class="form-control" type="text" asp-for="Title" value="@Model.Title"/>
+    </div>
+    <div class="mb-3">
+        <label class="mb-1" asp-for="Author">Author</label>
+        <input class="form-control" type="text" asp-for="Author" value="@Model.Author"/>
+    </div>
+    <div class="mb-3 d-flex flex-column">
+        <label class="mb-1" asp-for="GenreId">Genre</label>
+        <select class="form-control" asp-for="GenreId" asp-items="ViewBag.Genres"></select>
+    </div>
+    <div class="mb-3">
+        <label class="mb-1" asp-for="Year">Year</label>
+        <input class="form-control" type="number" asp-for="Year" value="@Model.Year"/>
+    </div>
+    <div class="mb-3">
+        <label class="mb-1" asp-for="Description">Description</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+    <div class="">
+        <a class="btn btn-secondary" asp-controller="Book" asp-action="Index">Back</a>
+        <button class="btn btn-primary" type="submit">Update</button>
+    </div>
+</form>

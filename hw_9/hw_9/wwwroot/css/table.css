@@ -1,0 +1,49 @@
+.thead-dark {
+    background-color: black;
+}
+
+.thead-dark th {
+    color: white;
+    font-weight: bold;
+}
+
+.table-block__sort-btn {
+    position: relative;
+    padding: 0 24px 0 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: inherit;
+    font-weight: inherit;
+}
+
+.table-block__sort-btn:before,
+.table-block__sort-btn:after {
+    border-style: solid;
+    border-width: 8px 5px;
+    border-color: transparent;
+    content: '';
+    height: 0;
+    position: absolute;
+    right: 4px;
+    width: 0;
+}
+
+.table-block__sort-btn:before {
+    border-bottom-color: #777;
+    top: -5px;
+}
+
+.table-block__sort-btn:after {
+    border-top-color: #777;
+    bottom: -5px;
+}
+
+.table-block__sort-btn--asc:before {
+    border-bottom-color: #ccc;
+}
+
+.table-block__sort-btn--desc:after {
+    border-top-color: #ccc;
+}

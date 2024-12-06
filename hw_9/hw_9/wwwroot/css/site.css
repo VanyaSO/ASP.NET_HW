@@ -1,0 +1,56 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.cosmic-header {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cosmic-text {
+    background: linear-gradient(90deg, #ff00ff, #00bfff, #8a2be2, #ff6347, #ff0000);
+    background-size: 300% 300%;
+    color: transparent;
+    -webkit-background-clip: text;
+    display: inline-block;
+    animation: move-gradient 4s linear infinite;
+}
+
+@keyframes move-gradient {
+    0% {
+        background-position: 0%;
+    }
+    50% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0%;
+    }
+}
+
+
+
