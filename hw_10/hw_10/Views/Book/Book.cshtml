@@ -1,0 +1,50 @@
+@using Microsoft.IdentityModel.Tokens
+@model hw_10.ViewModels.BookPageViewModel
+
+<div class="text-center">
+    <h1>Book "@Model.Title"</h1>
+</div>
+
+
+<div class="row">
+    <div class="col-12">
+        <div style="width: 100%; max-width: 500px; margin-bottom: 24px;">
+            <img style="width: 100%; height: 100%; object-fit: cover" src="@(Model.Image.IsNullOrEmpty() ? $"http://dummyimage.com/400x250/C0C0C0FF.jpg&text={Model.Title}" : Model.Image)">
+        </div>
+        <h3 class="mb-1">@Model.Title</h3>
+        <p class="mb-2">@Model.Description</p>
+        <p style="font-size: 24px; margin-bottom: 24px;">@Model.Price$</p>
+
+        <p class="mb-1"><b>Author:</b> @Model.Author</p>
+        <p class="mb-1"><b>Genre:</b> @Model.Genre</p>
+        <p class="mb-1"><b>Year:</b> @Model.Year</p>
+    </div>
+
+    <div class="col-12 mt-5 mb-4">
+        <div class="d-flex">
+            <h3 class="m-0">Reviews</h3>
+            <button class="btn btn-secondary ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Write review
+            </button>
+        </div>
+        <div class="collapse mt-2 mb-4" id="collapseExample">
+            @await  Html.PartialAsync("_CreateReviewForm", new Review { BookId = Model.Id })
+        </div>
+    </div>
+
+    @foreach (var review in Model.Reviews)
+    {
+        <div class="col-12 col-md-6 col-xl-4 mb-3">
+            <div class="review-card">
+                <div class="d-flex justify-content-between">
+                    <h4 class="m-0">@review.UserName</h4>
+                    <div>Rating: @review.Rating/5</div>
+                </div>
+                <hr class="my-2">
+                <div class="review-card__content">
+                    @review.Text
+                </div>
+            </div>
+        </div>
+    }
+</div>

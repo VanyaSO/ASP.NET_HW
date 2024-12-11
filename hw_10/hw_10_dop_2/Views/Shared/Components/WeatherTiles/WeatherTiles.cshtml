@@ -1,0 +1,21 @@
+@model IEnumerable<WeatherTile>
+
+@if (Model.Any())
+{
+    <div class="d-grid gap-2" style="grid-template-columns: repeat(3, 1fr)">
+        @foreach (var w in Model)
+        {
+        <div class="p-3 d-flex flex-column align-items-center">
+            <img src="@w.Icon" alt="Weather icon">
+            <p class="my-1">@w.Date.ToString("yy-MM-dd")</p>
+            <p class="my-1">Max temperature: @w.MaxTemp/C</p>
+            <p class="my-1">Min temperature: @w.MinTemp/C</p>
+            <p class="my-1">@w.Text</p>
+        </div>
+        }
+    </div>
+}
+else
+{
+    <div>Not found</div>
+}

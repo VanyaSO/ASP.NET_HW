@@ -1,0 +1,26 @@
+﻿@model string?
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="d-flex flex-column align-items-center">
+    <h1 class="mb-3">Weather</h1>
+    <form action="/Home/Index" class="text-center w-25 mb-4">
+        <div class="mb-3">
+            <label for="city" class="form-label">City</label>
+            <input type="text" class="form-control" name="city" id="city" placeholder="Enter city">
+        </div>
+        
+        <button type="submit" class="btn btn-primary mt-3">Get weather</button>
+    </form>
+    
+    @if (!String.IsNullOrEmpty(Model))
+    {
+        <vc:weather-tiles city="@Model"></vc:weather-tiles>
+    }
+    else
+    {
+        <div>Enter city</div>
+    }
+</div>
+    

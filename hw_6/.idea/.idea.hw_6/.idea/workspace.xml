@@ -5,33 +5,33 @@
     <projectFile profileName="https">hw_6/hw_6.csproj</projectFile>
     <projectFile profileName="httpsWatch">hw_6/hw_6.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ae6a1557-99fb-40c8-82db-d4c9f5da4ef1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../hw_7/hw_7/Controllers/TaskDop1Controller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_7/hw_7/Controllers/TaskDop3Controller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_7/hw_7/Controllers/TaskDop4Controller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_7/hw_7/Controllers/TaskDop5Controller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_7/hw_7/Views/Shared/_Header.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_7/hw_7/Views/Shared/_Header.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_7/hw_7/Views/Shared/_Message.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_7/hw_7/Views/Shared/_Message.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_7/hw_7/Views/TaskDop1/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_7/hw_7/Views/TaskDop1/Layout/_LayoutIndex.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_7/hw_7/Views/TaskDop1/Layout/_LayoutPrivacy.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_7/hw_7/Views/TaskDop1/Privacy.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_7/hw_7/Views/TaskDop3/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_7/hw_7/Views/TaskDop4/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_7/hw_7/Views/TaskDop5/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_7/hw_7/Views/TaskDop5/_Table.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_7/hw_7/Views/TaskDop5/_Table.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_2/hw_2/obj/Debug/net8.0/hw_2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_2/hw_2/obj/Debug/net8.0/hw_2.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_2/hw_2/obj/Debug/net8.0/hw_2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_2/hw_2/obj/Debug/net8.0/hw_2.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_2/hw_2/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_2/hw_2/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_4/hw_4/Helpers/BuildHtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_4/hw_4/Helpers/BuildHtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_4/hw_4/obj/Debug/net8.0/hw_4.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_4/hw_4/obj/Debug/net8.0/hw_4.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_10/hw_10/Controllers/BookController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_10/hw_10/Models/ApplicationContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_10/hw_10/Models/Author.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_10/hw_10/Models/Review.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_10/hw_10/Views/Book/Book.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_10/hw_10/Views/Book/Book.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_10/hw_10/Views/Book/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_10/hw_10/Views/Book/Index.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_6/obj/Debug/net8.0/hw_6.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/hw_6/obj/Debug/net8.0/hw_6.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_6/obj/Debug/net8.0/hw_6.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/hw_6/obj/Debug/net8.0/hw_6.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_6/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/hw_6/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_7/hw_7/obj/Debug/net8.0/hw_7.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_7/hw_7/obj/Debug/net8.0/hw_7.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_7/hw_7/obj/Debug/net8.0/hw_7.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_7/hw_7/obj/Debug/net8.0/hw_7.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8_dop_1/obj/Debug/net8.0/hw_8_dop_1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8_dop_1/obj/Debug/net8.0/hw_8_dop_1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8_dop_1/obj/Debug/net8.0/hw_8_dop_1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8_dop_1/obj/Debug/net8.0/hw_8_dop_1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8_dop_2/obj/Debug/net8.0/hw_8_dop_2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8_dop_2/obj/Debug/net8.0/hw_8_dop_2.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8_dop_2/obj/Debug/net8.0/hw_8_dop_2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8_dop_2/obj/Debug/net8.0/hw_8_dop_2.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_9/hw_9/obj/Debug/net8.0/hw_9.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_9/hw_9/obj/Debug/net8.0/hw_9.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_9/hw_9/obj/Debug/net8.0/hw_9.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_9/hw_9/obj/Debug/net8.0/hw_9.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_9/hw_9_dop_2/obj/Debug/net8.0/hw_9_dop_2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_9/hw_9_dop_2/obj/Debug/net8.0/hw_9_dop_2.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_9/hw_9_dop_2/obj/Debug/net8.0/hw_9_dop_2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_9/hw_9_dop_2/obj/Debug/net8.0/hw_9_dop_2.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +41,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2pUJZLQuM2rdovqWbUEZVLVZlwb" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,6 +54,10 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   },
@@ -121,6 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732814775901</updated>
       <workItem from="1732814777519" duration="64000" />
+      <workItem from="1733836366266" duration="1063000" />
     </task>
     <servers />
   </component>
