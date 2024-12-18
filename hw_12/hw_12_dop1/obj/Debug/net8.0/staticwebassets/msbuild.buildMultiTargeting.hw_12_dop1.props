@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/hw_12_dop1.props" />
+</Project>

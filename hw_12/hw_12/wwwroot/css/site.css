@@ -1,0 +1,30 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  height: 100vh;
+  margin-bottom: 60px;
+  background: var(--bg-primary);
+  color: var(--color-white);
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 16px;
+  border: 1px solid var(--border-primary);
+  background: var(--bg-primary);
+}

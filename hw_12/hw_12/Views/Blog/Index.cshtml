@@ -1,0 +1,21 @@
+﻿@model List<Article>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Blog</h1>
+</div>
+
+<div class="row gap-3">
+    @foreach (Article art in Model)
+    {
+        <div class="col-4 blog-card">
+            <h3>@art.Title</h3>
+            <p>@art.Description</p>
+            <div class="d-flex justify-content-between w-100 mt-auto">
+                <span>@art.CrateAt.ToShortDateString()</span><span>@art.MinutesForRead minutes</span>
+            </div>
+        </div>
+    }
+</div>
