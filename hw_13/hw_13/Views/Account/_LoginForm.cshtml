@@ -1,0 +1,16 @@
+@model hw_13.ViewModel.LoginViewModel
+
+<div class="form-container sign-in-container">
+    <form asp-action="Login">
+        <h2 class="mb-3">Sign in</h2>
+        <div class="mb-2 w-100">
+            <input type="email" asp-for="@Model.Email" placeholder="Email" />
+            <span asp-validation-for="@Model.Email" class="text-danger"></span>
+        </div>
+        <div class="mb-3 w-100">
+            <input type="password" asp-for="@Model.Password" placeholder="Password" />
+            <span asp-validation-for="@Model.Password" class="text-danger"></span>
+        </div>
+        <button>Sign In</button>
+    </form>
+</div>

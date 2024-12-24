@@ -18,12 +18,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_8/hw_8
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_8/hw_8/Views/Book/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9vay9BZGQuY3NodG1s
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_8/hw_8/Views/BookHw_8/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va0h3XzgvQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_8/hw_8/Views/Book/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9vay9JbmRleC5jc2h0bWw=
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_8/hw_8/Views/BookHw_8/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va0h3XzgvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_8/hw_8/Views/Home/Index.cshtml]

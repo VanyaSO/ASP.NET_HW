@@ -10,20 +10,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae6a1557-99fb-40c8-82db-d4c9f5da4ef1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../hw_10/hw_10/Controllers/BookController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_10/hw_10/Models/ApplicationContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_10/hw_10/Models/Author.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_10/hw_10/Models/Review.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_10/hw_10/Views/Book/Book.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_10/hw_10/Views/Book/Book.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_10/hw_10/Views/Book/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_10/hw_10/Views/Book/Index.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_13/.idea/.idea.hw_13/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_13/hw_13/Controllers/AccountController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_13/hw_13/Data/ApplicationContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_13/hw_13/Models/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_13/hw_13/Services/UserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_13/hw_13/ViewModel/Account/LoginViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_13/hw_13/ViewModel/Account/RegisterViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_13/hw_13/Views/Account/Auth.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_13/hw_13/Views/Account/Auth.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_13/hw_13/Views/Account/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_13/hw_13/Views/Account/_LoginForm.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_13/hw_13/Views/Account/_RegisterForm.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_10/hw_10/obj/Debug/net8.0/hw_10.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_10/hw_10/obj/Debug/net8.0/hw_10.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_10/hw_10/obj/Debug/net8.0/hw_10.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_10/hw_10/obj/Debug/net8.0/hw_10.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/hw_10_dop_2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/hw_10_dop_2.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/hw_10_dop_2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/hw_10_dop_2.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_11/hw_11/obj/Debug/net8.0/hw_11.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_11/hw_11/obj/Debug/net8.0/hw_11.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_11/hw_11/obj/Debug/net8.0/hw_11.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_11/hw_11/obj/Debug/net8.0/hw_11.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_12/hw_12/obj/Debug/net8.0/hw_12.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_12/hw_12/obj/Debug/net8.0/hw_12.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_12/hw_12/obj/Debug/net8.0/hw_12.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_12/hw_12/obj/Debug/net8.0/hw_12.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_12/hw_12/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_12/hw_12/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_12/hw_12_dop1/obj/Debug/net8.0/hw_12_dop1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_12/hw_12_dop1/obj/Debug/net8.0/hw_12_dop1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_12/hw_12_dop1/obj/Debug/net8.0/hw_12_dop1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_12/hw_12_dop1/obj/Debug/net8.0/hw_12_dop1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_12/hw_12_dop1/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_12/hw_12_dop1/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hw_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hw_6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_6/obj/Debug/net8.0/hw_6.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/hw_6/obj/Debug/net8.0/hw_6.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_6/obj/Debug/net8.0/hw_6.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/hw_6/obj/Debug/net8.0/hw_6.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hw_7/hw_7/obj/Debug/net8.0/hw_7.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_7/hw_7/obj/Debug/net8.0/hw_7.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hw_7/hw_7/obj/Debug/net8.0/hw_7.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_7/hw_7/obj/Debug/net8.0/hw_7.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hw_8/hw_8_dop_1/obj/Debug/net8.0/hw_8_dop_1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8_dop_1/obj/Debug/net8.0/hw_8_dop_1.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hw_8/hw_8_dop_1/obj/Debug/net8.0/hw_8_dop_1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8_dop_1/obj/Debug/net8.0/hw_8_dop_1.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hw_8/hw_8_dop_2/obj/Debug/net8.0/hw_8_dop_2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8_dop_2/obj/Debug/net8.0/hw_8_dop_2.AssemblyInfo.cs" afterDir="false" />
@@ -50,25 +68,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/ivanushachov/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
-      "/Users/ivanushachov/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
-      "/Users/ivanushachov/Library/Application Support/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/ivanushachov/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/ivanushachov/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/ivanushachov/Library/Application Support/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.hw_6: http">
     <configuration name="hw_6: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/hw_6/hw_6.csproj" />
@@ -126,6 +144,8 @@
       <updated>1732814775901</updated>
       <workItem from="1732814777519" duration="64000" />
       <workItem from="1733836366266" duration="1063000" />
+      <workItem from="1735049966933" duration="297000" />
+      <workItem from="1735054066064" duration="1759000" />
     </task>
     <servers />
   </component>

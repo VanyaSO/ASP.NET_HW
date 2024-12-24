@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hw_10_dop_2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9368b7d217ce28dec16e7c37cac7280a18dc8efb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7769f053cf0617318eff8c82ceb966f4720717df")]
 [assembly: System.Reflection.AssemblyProductAttribute("hw_10_dop_2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hw_10_dop_2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
