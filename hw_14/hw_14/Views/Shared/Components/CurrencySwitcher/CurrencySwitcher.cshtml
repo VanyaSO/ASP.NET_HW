@@ -1,0 +1,15 @@
+@model IEnumerable<Currency>
+
+<div class="currencySwitcher">
+    <div class="currencySwitcher__list d-flex">
+        @foreach (Currency curr in Model)
+        {
+        <a href="@Url.Action("ChangeCurrency", "Currency", new { currencyId = curr.Id, returnUrl = ViewContext.HttpContext.Request.Path })"
+           class="currencySwitcher__list__item @(ViewBag.ActiveId == curr.Id ? "active" : "")">
+            @curr.Code
+        </a>
+        }
+    </div>
+</div>
+
+

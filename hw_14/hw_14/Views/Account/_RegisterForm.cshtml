@@ -1,0 +1,20 @@
+@model hw_14.ViewModel.RegisterViewModel
+
+<div class="form-container sign-up-container">
+    <form asp-action="Register">
+        <h2 class="mb-3">Create Account</h2>
+        <div class="mb-2 w-100">
+            <input type="text" asp-for="@Model.Username" placeholder="Username" />
+            <span asp-validation-for="@Model.Username" class="text-danger"></span>
+        </div>
+        <div class="mb-2 w-100">
+            <input type="email" asp-for="@Model.Email" placeholder="Email" />
+            <span asp-validation-for="@Model.Email" class="text-danger"></span>
+        </div>
+        <div class="mb-3 w-100">
+            <input type="password" asp-for="@Model.Password" placeholder="Password" />
+            <span asp-validation-for="@Model.Password" class="text-danger"></span>
+        </div>
+        <button>Sign Up</button>
+    </form>
+</div>
