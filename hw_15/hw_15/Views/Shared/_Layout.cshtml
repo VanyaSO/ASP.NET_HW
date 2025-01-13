@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - hw_15</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/hw_15.styles.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="https://use.typekit.net/xdl5nju.css">
+    <link rel="stylesheet" media="screen"
+          href="https://prod-assets.futureme.org/assets/fa-e9e3fa1683c02349761afca73317fefa8b0360b3a97dcbc9480dc851744a3a95.css"/>
+    <link rel="stylesheet" media="screen"
+          href="https://prod-assets.futureme.org/assets/application-c91653beda49ea6491f023baa1cc45b6f1fb106209d87ac09c97a3e33b11e7ea.css"/>
+</head>
+<body>
+<main role="main">
+    @RenderBody()
+</main>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
