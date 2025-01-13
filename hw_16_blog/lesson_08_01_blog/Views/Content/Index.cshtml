@@ -1,0 +1,88 @@
+@using System.Text;
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model lesson_08_01_blog.ViewModels.ContentViewModel
+
+@{
+ViewBag.Title = "Материал";
+}
+
+<div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Управление материалом</h2>
+    <a asp-controller="Home" asp-action="Index">Главная</a>
+    <div class="row g-4 py-5 row-cols-1">
+        <div>
+            <a asp-controller="Content" asp-action="CreateCategory" class="btn btn-primary">Добавить категорию</a>
+            <a asp-controller="Content" asp-action="CreatePublication" class="btn btn-primary">Добавить публикацию</a>
+        </div>
+
+        <h3>Категории</h3>
+
+        <div class="p-5 mb-4 bg-light rounded-3 ovx">
+            <table class="table table-hover">
+                <tr><th>Название категории</th><th></th><th></th></tr>
+                @foreach (var category in Model.Categories)
+                {
+                <tr>
+                    <td>@category.Name</td>
+                    <td>
+                        <a class="btn btn-sm btn-primary" asp-controller="Content" asp-action="EditCategory" asp-route-id="@category.Id">Изменить</a>
+                    </td>
+                    <td>
+                        <form asp-controller="Content" asp-action="DeleteCategory" asp-route-id="@category.Id" method="post">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-sm btn-danger">Удалить</button>
+                        </form>
+                    </td>
+                </tr>
+                }
+            </table>
+        </div>
+
+        <h3>Публикации</h3>
+
+        <div class="p-5 mb-4 bg-light rounded-3 ovx">
+            <table class="table table-hover">
+                <tr><th>Название записи</th><th>Категории</th><th>Всего просмотров</th><th></th><th></th></tr>
+                @foreach (var publication in Model.Publications)
+                {
+                    <tr>
+                        <td>@publication.Title</td>
+                        <td>
+                            @{
+                                StringBuilder st = new StringBuilder();
+                                if (publication.Categories.Count > 0)
+                                {
+                                    foreach (Category category in publication.Categories)
+                                    {
+                                        st.Append($"{category.Name}, ");
+                                    }
+                                    st.Remove(st.Length - 2, 2);
+                                }
+                                else
+                                {
+                                    st.Append("Без категории");
+                                }
+                            }
+                            @st.ToString()
+                        </td>
+                        <td>@publication.TotalViews</td>
+                        <td>
+                            <a class="btn btn-sm btn-primary" asp-controller="Content" asp-action="EditPublication" asp-route-id="@publication.Id">Изменить</a>
+                        </td>
+                        <td>
+                            <form asp-controller="Content" asp-action="DeletePublication" asp-route-id="@publication.Id" method="post">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-sm btn-danger">Удалить</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+        
+        <div class="text-center">
+            @await Html.PartialAsync("_Pages", Model)
+        </div>
+
+    </div>
+</div>

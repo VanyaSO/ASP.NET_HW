@@ -1,0 +1,65 @@
+<div class="card mb-4">
+    <div class="card-header">Фильтры</div>
+    <div class="card-body">
+        <div class="input-group align-items-center">
+            <ul class="list-unstyled mb-0">
+                @if (Model.Options.SearchTerm is not null)
+                {
+                    <li><b>Поиск:</b> @Model.Options.SearchTerm</li>
+                }
+                @if (Model.CategoryId is not null)
+                {
+                    <li><b>Категория:</b> @Model.CategoryName</li>
+                }
+                @if (Model.Options.OrderPropertyName is not null)
+                {
+                    <li><b>Сортировка:</b> @Model.Options.OrderName</li>
+                }
+                <li><b>Текущая страница:</b> @Model.CurrentPage</li>
+                <li><b>Публикаций на страницу:</b> @Model.PageSize</li>
+                <li><b>Всего публикаций:</b> @Model.TotalItems</li>
+            </ul>
+        </div><br />
+        <a href="@ViewContext.HttpContext.Request.Path" class="btn btn-outline-primary">Сбросить фильтры</a>
+    </div>
+</div>
+ 
+ 
+<!-- Виджет поиска-->
+<div class="card mb-4">
+    <div class="card-header">Поиск</div>
+    <div class="card-body">
+        <div class="input-group">
+            <input form="pageform" class="form-control" name="options.searchterm" placeholder="Напишите, что искать.." value="@Model.Options.SearchTerm" />
+            <button form="pageform" class="btn btn-primary" type="submit">Поиск</button>
+        </div>
+    </div>
+</div>
+ 
+<!-- Сортировки-->
+<div class="card mb-4">
+    <div class="card-header">Сортировка</div>
+    <div class="card-body">
+        <div class="input-group">
+            <select form="pageform" name="options.OrderPropertyName" class="form-control">
+                @foreach (string s in ViewBag.sorts as string[])
+                {
+                    string value = s.IndexOf('.') == -1 ? s : s.Substring(s.IndexOf('.') + 1);
+                    <option value="@s" selected="@(Model.Options.OrderPropertyName == s)">
+                        @(
+                            value switch
+                            {
+                                "Title" => "Название",
+                                "TotalViews" => "Просмотры",
+                                "CreatedAt" => "Дата публикации",
+                                "" => "Не выбрано",
+                                _ => value
+                            }
+                            )
+                    </option>
+                }
+            </select>
+            <button form="pageform" class="btn btn-primary" type="submit">Сортировка</button>
+        </div>
+    </div>
+</div>

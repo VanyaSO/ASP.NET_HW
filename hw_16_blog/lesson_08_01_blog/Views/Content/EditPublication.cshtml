@@ -1,0 +1,119 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model lesson_08_01_blog.ViewModels.PublicationViewModel
+@{
+    ViewBag.Title = "Редактирование публикации";
+}
+
+<link href="~/css/froala/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css"/>
+<script src="~/js/froala/froala_editor.pkgd.min.js" type="text/javascript"></script>
+
+<div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Редактирование публикации</h2>
+    <a asp-controller="Home" asp-action="Index">Главная</a> / <a asp-controller="Content" asp-action="Index">Управление материалом</a>
+    <div class="row g-4 py-5 row-cols-1">
+        <div class="p-5 mb-4 bg-light rounded-3 ">
+            <form asp-controller="Content" asp-action="EditPublication" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <input type="hidden" asp-for="Id" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Title" class="control-label">Заголовок</label>
+                    <input type="text" asp-for="Title" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label">Содержимое</label>
+                    <textarea asp-for="Description" class="form-control" rows="10" id="myEditor"></textarea>
+                </div>
+                <div class="form-group">
+ 
+                    <div class="bg-image mt-3">
+                        @if (Model.Image != null)
+                        {
+                            <img src="@Model.Image" class="img-fluid" style="width:100px; height:100px;">
+                        }
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <p class="text-white mb-0">@(Model.ImageFullName is null ? "Изображение не выбрано" : Model.ImageFullName)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="file" class="form-control" asp-for="File" accept="image/*" />
+ 
+                </div>
+ 
+                <hr class="featurette-divider">
+ 
+                <div class="form-group">
+                    <label asp-for="SelectListCategories" class="control-label">Категории</label>
+                    <span class="input-icon">
+                        <input type="text" placeholder="Поиск" id="colsearch2" class="form-control colsearch" onkeyup="sortCols2()">
+                        <i class="fa fa-search"></i>
+                    </span>
+                    <div class="col-sm-12">Выбранные </div>
+                    <ul id="col-active2" class="media-list overflow-auto ulr">
+                        @foreach (var category in Model.SelectListCategories.Where(e => e.Selected == true))
+                        {
+                            <li>
+                                <div class="checkbox sidebar-content list-group-item d-flex justify-content-between lh-condensed">
+                                    <label>
+                                        <input id="@category.Value" type="checkbox" name="Categories" value="@category.Value" checked="@category.Selected" class="green">
+                                        @category.Text
+                                    </label>
+                                </div>
+                            </li>
+                        }
+                    </ul>
+                    <div class="col-sm-12">Не выбранные </div>
+                    <ul id="col-inactive2" class="media-list overflow-auto ulr">
+                        @foreach (var category in Model.SelectListCategories.Where(e => e.Selected == false))
+                        {
+                            <li>
+                                <div class="checkbox sidebar-content list-group-item d-flex justify-content-between lh-condensed">
+                                    <label>
+                                        <input id="@category.Value" type="checkbox" name="Categories" value="@category.Value" checked="@category.Selected" class="green">
+                                        @category.Text
+                                    </label>
+                                </div>
+                            </li>
+                        }
+                    </ul>
+                </div>
+ 
+                <hr class="featurette-divider">
+ 
+                <div class="form-group">
+                    <label asp-for="SeoDescription" class="control-label">Seo описание</label>
+                    <textarea asp-for="SeoDescription" class="form-control" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Keywords" class="control-label">Ключевые слова</label>
+                    <input type="text" asp-for="Keywords" class="form-control" />
+                </div>
+                <br />
+                <div class="form-group">
+                    @Html.AntiForgeryToken()
+                    <input type="submit" value="Сохранить" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+ 
+@section Scripts{
+ 
+    @*Подключаем скрипт для поиска и фильтрации категорий*@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+ 
+    @*Код для поиска и фильтрации категорий*@
+    <script src="~/js/category.js"></script>
+ 
+    @*Для валидации модели на клиенте*@
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
+    <script>
+        new FroalaEditor('#myEditor', {
+            toolbarButtons: [['bold', 'italic', 'underline', 'strikeThrough', 'subscript', 'superscript'], ['fontFamily', 'fontSize', 'textColor', 'backgroundColor'], ['inlineClass', 'inlineStyle', 'clearFormatting']]
+        })
+    </script>
+}

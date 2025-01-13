@@ -1,0 +1,106 @@
+﻿@using lesson_08_01_blog.Helpers
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model lesson_08_01_blog.ViewModels.IndexViewModel
+@{
+    ViewData["Title"] = "Блог";
+    ViewData["Description"] = "Блог о путешествиях, рассказы из жизни.";
+    ViewData["Keywords"] = "путешествия, истории жизни.";
+}
+ 
+<link rel="stylesheet" href="~/css/book/home.css" asp-append-version="true" />
+ 
+<header class="py-5" style="background-image: linear-gradient( to bottom, rgba(0, 0, 255, 0.5), rgb(162 162 0 / 50%) )">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white">
+            <h1 class="display-4 fw-bolder">Блог</h1>
+            <p class="lead fw-normal text-white-50 mb-0"> У настоящего путешественника нет определенного плана и намерения куда-либо приехать </p>
+        </div>
+    </div>
+</header>
+ 
+<div class="container my-5">
+    <div class="row">
+        <div class="col-lg-3">
+ 
+            @{
+                ViewBag.sorts = new string[] { "", "Title", "TotalViews", "CreatedAt" };
+            }
+ 
+            @await Html.PartialAsync("_PageOptions", Model.Publications)
+ 
+            <!-- Categories widget-->
+            <div class="card mb-4">
+                <div class="card-header">Жанры</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled mb-0">
+                                @for (int i = 0; i < Model.Categories.Count / 2; i++)
+                                {
+                                    <li><a href="@Url.Action(action: "Index", controller: "Home", values: new { categoryId = Model.Categories[i].Id }, protocol: "https")">@Model.Categories[i].Name</a></li>
+                                }
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled mb-0">
+                                @for (int i = Model.Categories.Count / 2; i < Model.Categories.Count; i++)
+                                {
+                                    <li><a href="@Url.Action(action: "Index", controller: "Home", values: new { categoryId = Model.Categories[i].Id }, protocol: "https")">@Model.Categories[i].Name</a></li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 
+            <!-- Side widget-->
+            <div class="card mb-4">
+                <div class="card-header">Рекламный блок</div>
+                <div class="card-body">Здесь могла быть ваша реклама.</div>
+            </div>
+        </div>
+ 
+        <div class="col-lg-9">
+ 
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-2 justify-content-center">
+ 
+                @foreach (Publication publication in Model.Publications)
+                {
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            @if (@publication.Image != null)
+                            {
+                                <img class="card-img-top book-preview" src="@publication.Image" alt="@publication.Title">
+                            }
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5 class="fw-bolder">@publication.Title</h5>
+                                    <span>@String.Join(", ", publication.Categories.Select(e => e.Name))</span>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                            <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                            <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                                        </svg>
+                                        <span>@publication.TotalViews</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center">
+                                    <a class="btn btn-outline-dark mt-auto" href="@Url.Action(action: "GetPublication", controller: "Home",
+                                    values: new { id = publication.Id, returnUrl = ViewContext.HttpContext.Request.PathAndQuery() }, protocol: "https")">Читать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+ 
+            </div>
+ 
+            <div class="text-center">
+                @await Html.PartialAsync("_Pages", Model)
+            </div>
+ 
+        </div>
+    </div>
+</div>

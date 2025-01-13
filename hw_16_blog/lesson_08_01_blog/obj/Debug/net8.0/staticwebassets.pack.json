@@ -1,0 +1,861 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/obj/Debug/net8.0/scopedcss/projectbundle/lesson_08_01_blog.bundle.scp.css",
+      "PackagePath": "staticwebassets/lesson_08_01_blog.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/froala_editor.css",
+      "PackagePath": "staticwebassets/css/froala/froala_editor.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/froala_editor.min.css",
+      "PackagePath": "staticwebassets/css/froala/froala_editor.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/froala_editor.pkgd.css",
+      "PackagePath": "staticwebassets/css/froala/froala_editor.pkgd.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/froala_editor.pkgd.min.css",
+      "PackagePath": "staticwebassets/css/froala/froala_editor.pkgd.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/froala_style.css",
+      "PackagePath": "staticwebassets/css/froala/froala_style.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/froala_style.min.css",
+      "PackagePath": "staticwebassets/css/froala/froala_style.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins.pkgd.css",
+      "PackagePath": "staticwebassets/css/froala/plugins.pkgd.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins.pkgd.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins.pkgd.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/char_counter.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/char_counter.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/char_counter.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/char_counter.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/code_view.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/code_view.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/code_view.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/code_view.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/colors.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/colors.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/colors.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/colors.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/draggable.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/draggable.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/draggable.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/draggable.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/emoticons.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/emoticons.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/emoticons.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/emoticons.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/file.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/file.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/file.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/file.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/files_manager.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/files_manager.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/files_manager.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/files_manager.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/filestack.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/filestack.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/filestack.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/filestack.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/fullscreen.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/fullscreen.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/fullscreen.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/fullscreen.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/help.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/help.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/help.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/help.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/image.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/image.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/image.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/image.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/image_manager.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/image_manager.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/image_manager.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/image_manager.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/line_breaker.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/line_breaker.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/line_breaker.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/line_breaker.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/markdown.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/markdown.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/markdown.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/markdown.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/quick_insert.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/quick_insert.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/quick_insert.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/quick_insert.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/special_characters.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/special_characters.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/special_characters.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/special_characters.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/table.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/table.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/table.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/table.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/trim_video.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/trim_video.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/trim_video.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/trim_video.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/video.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/video.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/plugins/video.min.css",
+      "PackagePath": "staticwebassets/css/froala/plugins/video.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/themes/dark.css",
+      "PackagePath": "staticwebassets/css/froala/themes/dark.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/themes/dark.min.css",
+      "PackagePath": "staticwebassets/css/froala/themes/dark.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/themes/gray.css",
+      "PackagePath": "staticwebassets/css/froala/themes/gray.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/themes/gray.min.css",
+      "PackagePath": "staticwebassets/css/froala/themes/gray.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/themes/royal.css",
+      "PackagePath": "staticwebassets/css/froala/themes/royal.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/themes/royal.min.css",
+      "PackagePath": "staticwebassets/css/froala/themes/royal.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/third_party/embedly.css",
+      "PackagePath": "staticwebassets/css/froala/third_party/embedly.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/third_party/embedly.min.css",
+      "PackagePath": "staticwebassets/css/froala/third_party/embedly.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/third_party/font_awesome.css",
+      "PackagePath": "staticwebassets/css/froala/third_party/font_awesome.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/third_party/font_awesome.min.css",
+      "PackagePath": "staticwebassets/css/froala/third_party/font_awesome.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/third_party/image_tui.css",
+      "PackagePath": "staticwebassets/css/froala/third_party/image_tui.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/third_party/image_tui.min.css",
+      "PackagePath": "staticwebassets/css/froala/third_party/image_tui.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/third_party/spell_checker.css",
+      "PackagePath": "staticwebassets/css/froala/third_party/spell_checker.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/froala/third_party/spell_checker.min.css",
+      "PackagePath": "staticwebassets/css/froala/third_party/spell_checker.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/category.js",
+      "PackagePath": "staticwebassets/js/category.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/froala_editor.min.js",
+      "PackagePath": "staticwebassets/js/froala/froala_editor.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/froala_editor.pkgd.min.js",
+      "PackagePath": "staticwebassets/js/froala/froala_editor.pkgd.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/ar.js",
+      "PackagePath": "staticwebassets/js/froala/languages/ar.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/bs.js",
+      "PackagePath": "staticwebassets/js/froala/languages/bs.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/cs.js",
+      "PackagePath": "staticwebassets/js/froala/languages/cs.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/da.js",
+      "PackagePath": "staticwebassets/js/froala/languages/da.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/de.js",
+      "PackagePath": "staticwebassets/js/froala/languages/de.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/el.js",
+      "PackagePath": "staticwebassets/js/froala/languages/el.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/en_ca.js",
+      "PackagePath": "staticwebassets/js/froala/languages/en_ca.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/en_gb.js",
+      "PackagePath": "staticwebassets/js/froala/languages/en_gb.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/es.js",
+      "PackagePath": "staticwebassets/js/froala/languages/es.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/et.js",
+      "PackagePath": "staticwebassets/js/froala/languages/et.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/fa.js",
+      "PackagePath": "staticwebassets/js/froala/languages/fa.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/fi.js",
+      "PackagePath": "staticwebassets/js/froala/languages/fi.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/fr.js",
+      "PackagePath": "staticwebassets/js/froala/languages/fr.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/he.js",
+      "PackagePath": "staticwebassets/js/froala/languages/he.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/hr.js",
+      "PackagePath": "staticwebassets/js/froala/languages/hr.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/hu.js",
+      "PackagePath": "staticwebassets/js/froala/languages/hu.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/id.js",
+      "PackagePath": "staticwebassets/js/froala/languages/id.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/it.js",
+      "PackagePath": "staticwebassets/js/froala/languages/it.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/ja.js",
+      "PackagePath": "staticwebassets/js/froala/languages/ja.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/ko.js",
+      "PackagePath": "staticwebassets/js/froala/languages/ko.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/ku.js",
+      "PackagePath": "staticwebassets/js/froala/languages/ku.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/me.js",
+      "PackagePath": "staticwebassets/js/froala/languages/me.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/nb.js",
+      "PackagePath": "staticwebassets/js/froala/languages/nb.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/nl.js",
+      "PackagePath": "staticwebassets/js/froala/languages/nl.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/pl.js",
+      "PackagePath": "staticwebassets/js/froala/languages/pl.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/pt_br.js",
+      "PackagePath": "staticwebassets/js/froala/languages/pt_br.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/pt_pt.js",
+      "PackagePath": "staticwebassets/js/froala/languages/pt_pt.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/ro.js",
+      "PackagePath": "staticwebassets/js/froala/languages/ro.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/ru.js",
+      "PackagePath": "staticwebassets/js/froala/languages/ru.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/sk.js",
+      "PackagePath": "staticwebassets/js/froala/languages/sk.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/sl.js",
+      "PackagePath": "staticwebassets/js/froala/languages/sl.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/sr.js",
+      "PackagePath": "staticwebassets/js/froala/languages/sr.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/sv.js",
+      "PackagePath": "staticwebassets/js/froala/languages/sv.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/th.js",
+      "PackagePath": "staticwebassets/js/froala/languages/th.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/tr.js",
+      "PackagePath": "staticwebassets/js/froala/languages/tr.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/uk.js",
+      "PackagePath": "staticwebassets/js/froala/languages/uk.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/vi.js",
+      "PackagePath": "staticwebassets/js/froala/languages/vi.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/zh_cn.js",
+      "PackagePath": "staticwebassets/js/froala/languages/zh_cn.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/languages/zh_tw.js",
+      "PackagePath": "staticwebassets/js/froala/languages/zh_tw.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins.pkgd.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins.pkgd.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/align.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/align.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/char_counter.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/char_counter.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/code_beautifier.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/code_beautifier.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/code_view.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/code_view.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/colors.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/colors.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/cryptojs.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/cryptojs.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/draggable.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/draggable.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/edit_in_popup.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/edit_in_popup.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/emoticons.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/emoticons.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/entities.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/entities.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/file.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/file.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/files_manager.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/files_manager.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/filestack.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/filestack.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/font_family.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/font_family.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/font_size.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/font_size.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/forms.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/forms.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/fullscreen.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/fullscreen.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/help.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/help.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/image.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/image.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/image_manager.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/image_manager.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/inline_class.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/inline_class.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/inline_style.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/inline_style.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/line_breaker.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/line_breaker.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/line_height.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/line_height.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/link.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/link.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/lists.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/lists.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/markdown.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/markdown.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/paragraph_format.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/paragraph_format.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/paragraph_style.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/paragraph_style.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/print.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/print.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/quick_insert.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/quick_insert.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/quote.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/quote.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/save.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/save.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/special_characters.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/special_characters.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/table.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/table.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/track_changes.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/track_changes.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/trim_video.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/trim_video.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/url.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/url.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/video.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/video.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/word_counter.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/word_counter.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/plugins/word_paste.min.js",
+      "PackagePath": "staticwebassets/js/froala/plugins/word_paste.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/third_party/embedly.min.js",
+      "PackagePath": "staticwebassets/js/froala/third_party/embedly.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/third_party/font_awesome.min.js",
+      "PackagePath": "staticwebassets/js/froala/third_party/font_awesome.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/third_party/image_tui.min.js",
+      "PackagePath": "staticwebassets/js/froala/third_party/image_tui.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/third_party/showdown.min.js",
+      "PackagePath": "staticwebassets/js/froala/third_party/showdown.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/froala/third_party/spell_checker.min.js",
+      "PackagePath": "staticwebassets/js/froala/third_party/spell_checker.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.lesson_08_01_blog.props",
+      "PackagePath": "build\\lesson_08_01_blog.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.lesson_08_01_blog.props",
+      "PackagePath": "buildMultiTargeting\\lesson_08_01_blog.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.lesson_08_01_blog.props",
+      "PackagePath": "buildTransitive\\lesson_08_01_blog.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.lesson_08_01_blog.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
