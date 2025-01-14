@@ -9,12 +9,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12a2685e-f90e-45c6-8d3f-956503390695" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Helpers/PasswordHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/ViewModels/EmailViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Views/Account/ResetPassword.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_15/hw_15/obj/Debug/net8.0/hw_15.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_15/hw_15/obj/Debug/net8.0/hw_15.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_15/hw_15/obj/Debug/net8.0/hw_15.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_15/hw_15/obj/Debug/net8.0/hw_15.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_15/hw_15/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_15/hw_15/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hw_16_blog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hw_16_blog/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/Views/Account/ResetPassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/Views/Account/ResetPassword.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/ref/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/ref/lesson_08_01_blog.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/refint/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/refint/lesson_08_01_blog.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,35 +34,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2raewyzWdmI2EydlLfoVntOKjsT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.lesson_08_01_blog: http.executor": "Run",
-    ".NET Launch Settings Profile.lesson_08_01_blog: https.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.lesson_08_01_blog: http.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.lesson_08_01_blog: https.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/ivanushachov/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
-      "/Users/ivanushachov/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
-      "/Users/ivanushachov/Library/Application Support/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/ivanushachov/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/ivanushachov/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/ivanushachov/Library/Application Support/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.lesson_08_01_blog: https">
     <configuration name="lesson_08_01_blog: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/lesson_08_01_blog/lesson_08_01_blog.csproj" />
@@ -97,6 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1736801856423</updated>
       <workItem from="1736801857869" duration="3412000" />
+      <workItem from="1736838390948" duration="520000" />
     </task>
     <servers />
   </component>

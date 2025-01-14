@@ -158,6 +158,7 @@ public class AccountController : Controller
     
     [Route("reset-password")]
     [HttpPost]
+    [AutoValidateAntiforgeryToken]
     public async Task<IActionResult> ResetPassword(EmailViewModel model, [FromServices]IEmailSender _emailSender)
     {
         if (string.IsNullOrEmpty(model.Email))
@@ -180,7 +181,7 @@ public class AccountController : Controller
 
         if (result.Succeeded)
         {
-            var message = new Message(new string[] { model.Email }, "New Password", $"Your new password: {newPassword} , {HttpContext.GetUrl()} ");
+            var message = new Message(new string[] { "ushachovg324@gmail.com" }, "New Password", $"Your new password: {newPassword} {HttpContext.GetUrl()}/login ");
             _emailSender.SendEmail(message);
         
             return Content("We have sent you a new password");   
