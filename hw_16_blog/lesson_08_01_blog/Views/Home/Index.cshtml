@@ -88,7 +88,7 @@
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                                 <div class="text-center">
                                     <a class="btn btn-outline-dark mt-auto" href="@Url.Action(action: "GetPublication", controller: "Home",
-                                    values: new { id = publication.Id, returnUrl = ViewContext.HttpContext.Request.PathAndQuery() }, protocol: "https")">Читать</a>
+                                                                                      values: new { id = publication.Id, returnUrl = ViewContext.HttpContext.Request.PathAndQuery() }, protocol: "https")">Читать</a>
                                 </div>
                             </div>
                         </div>
@@ -101,6 +101,12 @@
                 @await Html.PartialAsync("_Pages", Model)
             </div>
  
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-12">
+            @await Component.InvokeAsync("Subscribe")
         </div>
     </div>
 </div>

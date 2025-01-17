@@ -9,19 +9,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12a2685e-f90e-45c6-8d3f-956503390695" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Controllers/SubscribersController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Data/CommonInitializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Interfaces/ISubscriber.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Models/Subscriber.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Repositories/SubscriberRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/ViewComponents/SubscribeViewComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/ViewModels/EmailNewsletterViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Views/Shared/Components/Subscribe/Subscribe.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Views/Subscribers/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.hw_16_blog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hw_16_blog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/Controllers/AccountController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/Views/Account/ResetPassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/Views/Account/ResetPassword.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/Data/ApplicationContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/Data/ApplicationContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/EmailService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/EmailService.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/lesson_08_01_blog.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/lesson_08_01_blog.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/ref/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/ref/lesson_08_01_blog.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/refint/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/refint/lesson_08_01_blog.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/lesson_08_01_blog.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/lesson_08_01_blog.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_7/hw_7/obj/Debug/net8.0/hw_7.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_7/hw_7/obj/Debug/net8.0/hw_7.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_7/hw_7/obj/Debug/net8.0/hw_7.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_7/hw_7/obj/Debug/net8.0/hw_7.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8_dop_1/obj/Debug/net8.0/hw_8_dop_1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8_dop_1/obj/Debug/net8.0/hw_8_dop_1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8_dop_1/obj/Debug/net8.0/hw_8_dop_1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8_dop_1/obj/Debug/net8.0/hw_8_dop_1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8_dop_2/obj/Debug/net8.0/hw_8_dop_2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8_dop_2/obj/Debug/net8.0/hw_8_dop_2.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8_dop_2/obj/Debug/net8.0/hw_8_dop_2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8_dop_2/obj/Debug/net8.0/hw_8_dop_2.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +65,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/Data/ApplicationContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lesson_08_01_blog/Views/Shared/Components/Subscribe/Subscribe.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -105,14 +141,51 @@
       <updated>1736801856423</updated>
       <workItem from="1736801857869" duration="3412000" />
       <workItem from="1736838390948" duration="520000" />
+      <workItem from="1736884478960" duration="7057000" />
+      <workItem from="1737039845555" duration="13315000" />
+      <workItem from="1737117110180" duration="3501000" />
+      <workItem from="1737127298666" duration="1880000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/lesson_08_01_blog/Controllers/SubscribersController.cs</url>
+          <line>66</line>
+          <properties documentPath="$PROJECT_DIR$/lesson_08_01_blog/Controllers/SubscribersController.cs" containingFunctionPresentation="Method 'EmailNewsletter'">
+            <startOffsets>
+              <option value="1906" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1929" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/lesson_08_01_blog/Controllers/SubscribersController.cs</url>
+          <line>48</line>
+          <properties documentPath="$PROJECT_DIR$/lesson_08_01_blog/Controllers/SubscribersController.cs" containingFunctionPresentation="Method 'DeleteSubscriber'">
+            <startOffsets>
+              <option value="1433" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1470" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

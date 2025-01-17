@@ -28,7 +28,10 @@
                 </ul>
                 <ul class="navbar-nav">
                     @if (User.Identity.IsAuthenticated)
-                    {        
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Subscribers" asp-action="Index">Рассылки</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="Content" asp-action="Index">Материалы</a>
                         </li>

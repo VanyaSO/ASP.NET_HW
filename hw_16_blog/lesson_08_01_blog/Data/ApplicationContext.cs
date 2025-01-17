@@ -7,6 +7,7 @@ public class ApplicationContext : IdentityDbContext<User>
     public DbSet<Membership> Memberships { get; set; }
     public DbSet<Category> Categories { get; set; }
     public DbSet<Publication> Publications { get; set; }
+    public DbSet<Subscriber> Subscribers { get; set; }
     
     public ApplicationContext(DbContextOptions<ApplicationContext> context) : base(context)
     {

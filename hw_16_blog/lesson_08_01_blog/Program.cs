@@ -29,6 +29,7 @@ builder.Services.AddIdentity<User, IdentityRole>(options =>
 builder.Services.AddTransient<IMembership, MembershipRepository>();
 builder.Services.AddTransient<ICategory, CategoryRepository>();
 builder.Services.AddTransient<IPublication, PublicationRepository>();
+builder.Services.AddTransient<ISubscriber, SubscriberRepository>();
 
 var emailConfig = builder.Configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>();
 builder.Services.AddSingleton(emailConfig);
@@ -45,8 +46,10 @@ using (var scope = app.Services.CreateScope())
         var userManager = services.GetRequiredService<UserManager<User>>();
         var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
         var applicationContext = services.GetRequiredService<ApplicationContext>();
+        
         await RoleInitializer.InitializeAsync(userManager, roleManager);
         await ContentInitializer.InitializeAsync(applicationContext);
+        await CommonInitializer.InitializeAsync(applicationContext);
     }
     catch (Exception e)
     {

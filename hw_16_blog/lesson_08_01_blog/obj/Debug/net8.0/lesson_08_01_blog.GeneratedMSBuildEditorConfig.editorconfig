@@ -94,6 +94,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQWRkaXRpb25hbFB1YmxpY2F0aW9ucy9BZGRpdGlvbmFsUHVibGljYXRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/Views/Shared/Components/Subscribe/Subscribe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvU3Vic2NyaWJlL1N1YnNjcmliZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -108,6 +112,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/Views/Subscribers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3Vic2NyaWJlcnMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/Views/_ViewImports.cshtml]

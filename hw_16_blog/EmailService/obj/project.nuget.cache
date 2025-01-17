@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "cdBuJmHuJbG0FIiH4m/KLd6Rgi9nCG3yI7XR0Bt7liuv9zCPMrAgaPjbbXZqabxk+eDQ8ikN3bzNDTysH3RQmQ==",
+  "success": true,
+  "projectFilePath": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/EmailService/EmailService.csproj",
+  "expectedPackageFiles": [
+    "/Users/ivanushachov/.nuget/packages/bouncycastle.cryptography/2.5.0/bouncycastle.cryptography.2.5.0.nupkg.sha512",
+    "/Users/ivanushachov/.nuget/packages/mailkit/4.9.0/mailkit.4.9.0.nupkg.sha512",
+    "/Users/ivanushachov/.nuget/packages/mimekit/4.9.0/mimekit.4.9.0.nupkg.sha512",
+    "/Users/ivanushachov/.nuget/packages/system.formats.asn1/8.0.1/system.formats.asn1.8.0.1.nupkg.sha512",
+    "/Users/ivanushachov/.nuget/packages/system.security.cryptography.pkcs/8.0.1/system.security.cryptography.pkcs.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
