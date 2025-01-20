@@ -1,0 +1,135 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = lesson_08_01_blog
+build_property.RootNamespace = lesson_08_01_blog
+build_property.ProjectDir = /Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Account/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9DaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Admin/EditRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRWRpdFJvbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Content/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGVudC9DcmVhdGVDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Content/CreatePublication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGVudC9DcmVhdGVQdWJsaWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Content/EditPublication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGVudC9FZGl0UHVibGljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Content/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGVudC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Content/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGVudC9VcGRhdGVDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Home/GetPublication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9HZXRQdWJsaWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Home/GetUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9HZXRVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Membership/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYmVyc2hpcC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Shared/Components/AdditionalPublications/AdditionalPublications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQWRkaXRpb25hbFB1YmxpY2F0aW9ucy9BZGRpdGlvbmFsUHVibGljYXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Shared/Components/Subscribe/Subscribe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvU3Vic2NyaWJlL1N1YnNjcmliZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Shared/_PageOptions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19QYWdlT3B0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Shared/_Pages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19QYWdlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Subscribers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3Vic2NyaWJlcnMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_17/lesson_08_01_blog/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-b8fdjzbtel

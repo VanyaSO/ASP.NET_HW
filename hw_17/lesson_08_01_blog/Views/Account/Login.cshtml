@@ -1,0 +1,53 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model lesson_08_01_blog.ViewModels.LoginViewModel
+@{
+    ViewBag.Title = "Авторизация";
+}
+ 
+ 
+<div class="row justify-content-center g-5 py-5">
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
+ 
+    <div class="col-md-4">
+        <h2 class="mb-4">Авторизация</h2>
+ 
+        <form asp-controller="Account" asp-action="Login" method="post" asp-route-returnUrl="@Model.ReturnUrl">
+ 
+            <div asp-validation-summary="ModelOnly"></div>
+ 
+            <div class="form-group mb-2">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+ 
+            <div class="form-group mb-4">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+ 
+            <div class="row mb-4">
+                <div class="col d-flex justify-content-center">
+                    <div class="form-check">
+                        <input class="form-check-input" asp-for="RememberMe" />
+                        <label class="form-check-label" asp-for="RememberMe"> Запомнить? </label>
+                    </div>
+                </div>
+ 
+                <div class="col">
+                    <a asp-controller="Account" asp-action="ResetPassword">Забыли пароль?</a>
+                </div>
+            </div>
+ 
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-primary w-100">Вход</button>
+        </form>
+    </div>
+</div>
+ 
+ 
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

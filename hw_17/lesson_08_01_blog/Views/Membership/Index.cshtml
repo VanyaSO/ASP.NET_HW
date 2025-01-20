@@ -1,0 +1,39 @@
+@model IEnumerable<Membership>
+@{
+ViewBag.Title = "Генерация приглашений";
+}
+<div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Генерация приглашений</h2>
+    <a asp-controller="Home" asp-action="Index">Главная</a> / <a asp-controller="Users" asp-action="Index">Все пользователи</a>
+    <div class="row g-4 py-5 row-cols-1">
+        <div>
+            <a asp-controller="Membership" asp-action="Generate" class="btn btn-primary">Сгенерировать новое приглашение</a>
+        </div>
+        <div class="p-5 mb-4 bg-light rounded-3 ovx">
+            <table class="table table-hover">
+                <tr><th>Ссылка</th><th>Дата генерации</th><th>Статус</th><th></th></tr>
+                @foreach (var membership in Model)
+                {
+                <tr>
+                    <td>@membership.Link</td>
+                    <td>@membership.CreateDate</td>
+                    @if (@membership.IsEnable)
+                    {
+                    <td class="text-success">Активное</td>
+                    }
+                    else
+                    {
+                    <td class="text-danger">Не активное</td>
+                    }
+                    <td>
+                        <form asp-controller="Membership" asp-action="Delete" asp-route-membershipId="@membership.Id" method="post">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-sm btn-danger">Удалить</button>
+                        </form>
+                    </td>
+                </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>

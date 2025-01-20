@@ -1,0 +1,18 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="bg-primary border-2 rounded-3 p-4 d-flex flex-column align-items-center text-light">
+    <h2 class="mb-2">News subscription</h2>
+    <p class="mb-3">Subscribe to stay updated with new publications</p>
+    <form action="/subscribe" method="post" data-ajax-loading="#load" data-ajax-update="#result" data-ajax="true" class="w-100 d-flex flex-column align-items-center" style="max-width: 300px">
+        <div class="form-group mb-1 w-100">
+            <label for="email" class="text-light mb-1" hidden=""></label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required />
+        </div>
+        <div id="load" style="display:none; text-align: center">Loading...</div>
+        <div id="result" class="mb-3"></div>
+        <button type="submit" class="btn btn-light mx-auto">Subscribe</button>
+    </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-ajax-unobtrusive@3.2.6/dist/jquery.unobtrusive-ajax.min.js"></script>

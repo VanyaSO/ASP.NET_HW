@@ -1,0 +1,31 @@
+@model IEnumerable<User>
+@{
+    ViewBag.Title = "Список пользователей";
+}
+<div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Управление пользователями</h2>
+    <a asp-controller="Home" asp-action="Index">Главная</a>
+    <div class="row g-4 py-5 row-cols-1">
+        <div class="p-5 mb-4 bg-light rounded-3 ovx">
+            <table class="table table-hover">
+                <tr><th>Email</th><th>Фио</th><th>Номер</th><th></th><th></th><th></th></tr>
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <td>@user.Email</td>
+                        <td>@user.Name</td>
+                        <td>@user.PhoneNumber</td>
+                        <td><a class="btn btn-sm btn-primary" asp-controller="Admin" asp-action="EditRoles" asp-route-userid="@user.Id">Права доступа</a></td>
+                        <td><a class="btn btn-sm btn-primary" asp-controller="Admin" asp-action="Edit" asp-route-id="@user.Id">Изменить</a></td>
+                        <td>
+                            <form asp-action="Delete" asp-route-id="@user.Id" method="post">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-sm btn-danger">Удалить</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>

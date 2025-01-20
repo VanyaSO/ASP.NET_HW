@@ -1,0 +1,37 @@
+@using lesson_08_01_blog.Helpers
+@model IEnumerable<Publication>
+
+<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-2 justify-content-center">
+ 
+    @foreach (Publication publication in Model)
+    {
+        <div class="col mb-5">
+            <div class="card h-100">
+                @if (publication.Image != null)
+                {
+                    <img class="card-img-top book-preview" src="@publication.Image" alt="@publication.Title">
+                }
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">@publication.Title</h5>
+                        <span>@String.Join(", ", publication.Categories.Select(e => e.Name))</span>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                            </svg>
+                            <span>@publication.TotalViews</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                        <a class="btn btn-outline-dark mt-auto" href="@Url.Action(action: "GetPublication", controller: "Home",
+                        values: new { id = publication.Id, returnUrl = ViewContext.HttpContext.Request.PathAndQuery() }, protocol: "https")">Читать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>

@@ -9,50 +9,501 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12a2685e-f90e-45c6-8d3f-956503390695" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Controllers/SubscribersController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Data/CommonInitializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Interfaces/ISubscriber.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Models/Subscriber.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Repositories/SubscriberRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/ViewComponents/SubscribeViewComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/ViewModels/EmailNewsletterViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Views/Shared/Components/Subscribe/Subscribe.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Views/Subscribers/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/.idea/.idea.lesson_08_01_blog.dir/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/.idea/.idea.lesson_08_01_blog.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/.idea/.idea.lesson_08_01_blog.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/.idea/.idea.lesson_08_01_blog.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Controllers/AccountController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Controllers/AdminController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Controllers/ContentController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Controllers/MembershipController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Controllers/SubscribersController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Data/ApplicationContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Data/CommonInitializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Data/ContentInitializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Data/RoleInitializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Helpers/PasswordHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Helpers/UrlExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Interfaces/ICategory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Interfaces/IMemberShip.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Interfaces/IPublication.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Interfaces/ISubscriber.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Models/Category.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Models/ErrorViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Models/Membership.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Models/Pages/PagedList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Models/Publication.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Models/QueryOptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Models/Subscriber.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Models/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Repositories/CategoryRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Repositories/MembershipRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Repositories/PublicationRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Repositories/SubscriberRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/ViewComponents/AdditionalPublicationsViewComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/ViewComponents/SubscribeViewComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/ViewModels/CategoryViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/ViewModels/ChangePasswordViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/ViewModels/ChangeRoleViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/ViewModels/ContentViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/ViewModels/EditUserViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/ViewModels/EmailNewsletterViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/ViewModels/EmailViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/ViewModels/GetPublicationViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/ViewModels/IndexViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/ViewModels/LoginViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/ViewModels/PublicationViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/ViewModels/RegisterUserViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/ViewModels/ResetPassword.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Account/ChangePassword.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Account/Login.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Account/Register.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Account/Register.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Account/ResetPassword.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Admin/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Admin/EditRoles.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Admin/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Admin/Index.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Content/CreateCategory.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Content/CreatePublication.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Content/CreatePublication.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Content/EditPublication.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Content/EditPublication.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Content/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Content/Index.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Content/UpdateCategory.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Content/UpdateCategory.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Home/GetPublication.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Home/GetPublication.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Home/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Membership/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Shared/Components/AdditionalPublications/AdditionalPublications.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Shared/Components/AdditionalPublications/AdditionalPublications.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Shared/Components/Subscribe/Subscribe.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Shared/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Shared/_Layout.cshtml.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Shared/_PageOptions.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Shared/_PageOptions.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Shared/_Pages.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Shared/_Pages.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/Subscribers/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/Views/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Azure.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Azure.Identity.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/BouncyCastle.Cryptography.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/EmailService.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/EmailService.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Humanizer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/MailKit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Build.Locator.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/MimeKit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/Mono.TextTemplating.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.ClientModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.CodeDom.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.Composition.AttributedModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.Composition.Convention.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.Composition.Hosting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.Composition.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.Composition.TypedParts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.Formats.Asn1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.IO.Pipelines.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.Memory.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.Security.Cryptography.Pkcs.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.Text.Encodings.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.Text.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.staticwebassets.runtime.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/lesson_08_01_blog.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/apphost" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_0.A8EA869A.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.RazorAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.RazorAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/ref/lesson_08_01_blog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/refint/lesson_08_01_blog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/scopedcss/bundle/lesson_08_01_blog.styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/scopedcss/projectbundle/lesson_08_01_blog.bundle.scp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/staticwebassets.development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/staticwebassets.pack.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/staticwebassets/msbuild.build.lesson_08_01_blog.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.lesson_08_01_blog.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.lesson_08_01_blog.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/staticwebassets/msbuild.lesson_08_01_blog.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/lesson_08_01_blog.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/lesson_08_01_blog.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/lesson_08_01_blog.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/froala_editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/froala_editor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/froala_editor.pkgd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/froala_editor.pkgd.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/froala_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/froala_style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins.pkgd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins.pkgd.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/char_counter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/char_counter.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/code_view.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/code_view.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/colors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/colors.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/draggable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/draggable.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/emoticons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/emoticons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/file.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/file.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/files_manager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/files_manager.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/filestack.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/filestack.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/fullscreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/fullscreen.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/help.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/help.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/image.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/image_manager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/image_manager.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/line_breaker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/line_breaker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/markdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/markdown.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/quick_insert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/quick_insert.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/special_characters.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/special_characters.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/trim_video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/trim_video.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/plugins/video.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/themes/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/themes/dark.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/themes/gray.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/themes/gray.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/themes/royal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/themes/royal.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/third_party/embedly.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/third_party/embedly.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/third_party/font_awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/third_party/font_awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/third_party/image_tui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/third_party/image_tui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/third_party/spell_checker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/froala/third_party/spell_checker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/froala_editor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/froala_editor.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/en_ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/en_gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/pt_br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/pt_pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/zh_cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/languages/zh_tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/align.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/char_counter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/code_beautifier.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/code_view.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/colors.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/cryptojs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/draggable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/edit_in_popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/emoticons.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/entities.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/file.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/files_manager.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/filestack.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/font_family.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/font_size.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/forms.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/fullscreen.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/help.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/image.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/image_manager.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/inline_class.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/inline_style.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/line_breaker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/line_height.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/link.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/lists.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/markdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/paragraph_format.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/paragraph_style.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/print.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/quick_insert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/quote.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/save.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/special_characters.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/table.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/track_changes.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/trim_video.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/url.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/video.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/word_counter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/plugins/word_paste.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/third_party/embedly.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/third_party/font_awesome.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/third_party/image_tui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/third_party/showdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/froala/third_party/spell_checker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/js/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.hw_16_blog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hw_16_blog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/Data/ApplicationContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/Data/ApplicationContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/EmailService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/EmailService.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/lesson_08_01_blog.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/lesson_08_01_blog.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/ref/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/ref/lesson_08_01_blog.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/refint/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/refint/lesson_08_01_blog.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/lesson_08_01_blog.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/lesson_08_01_blog.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_7/hw_7/obj/Debug/net8.0/hw_7.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_7/hw_7/obj/Debug/net8.0/hw_7.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_7/hw_7/obj/Debug/net8.0/hw_7.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_7/hw_7/obj/Debug/net8.0/hw_7.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8/obj/Debug/net8.0/hw_8.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8_dop_1/obj/Debug/net8.0/hw_8_dop_1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8_dop_1/obj/Debug/net8.0/hw_8_dop_1.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8_dop_1/obj/Debug/net8.0/hw_8_dop_1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8_dop_1/obj/Debug/net8.0/hw_8_dop_1.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8_dop_2/obj/Debug/net8.0/hw_8_dop_2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8_dop_2/obj/Debug/net8.0/hw_8_dop_2.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_8/hw_8_dop_2/obj/Debug/net8.0/hw_8_dop_2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_8/hw_8_dop_2/obj/Debug/net8.0/hw_8_dop_2.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +521,9 @@
     <setting file="file://$PROJECT_DIR$/lesson_08_01_blog/Views/Shared/Components/Subscribe/Subscribe.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -78,27 +532,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.lesson_08_01_blog: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.lesson_08_01_blog: https.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.lesson_08_01_blog: http.executor": "Run",
+    ".NET Launch Settings Profile.lesson_08_01_blog: https.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/ivanushachov/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/ivanushachov/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
-      &quot;/Users/ivanushachov/Library/Application Support/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/ivanushachov/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
+      "/Users/ivanushachov/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
+      "/Users/ivanushachov/Library/Application Support/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.lesson_08_01_blog: https">
     <configuration name="lesson_08_01_blog: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/lesson_08_01_blog/lesson_08_01_blog.csproj" />
@@ -145,6 +600,9 @@
       <workItem from="1737039845555" duration="13315000" />
       <workItem from="1737117110180" duration="3501000" />
       <workItem from="1737127298666" duration="1880000" />
+      <workItem from="1737132801336" duration="2001000" />
+      <workItem from="1737199537816" duration="36000" />
+      <workItem from="1737199609917" duration="549000" />
     </task>
     <servers />
   </component>

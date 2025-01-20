@@ -1,0 +1,34 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model lesson_08_01_blog.ViewModels.CategoryViewModel
+@{
+    ViewBag.Title = "Добавление категории";
+}
+ 
+<div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Добавление категории</h2>
+    <a asp-controller="Home" asp-action="Index">Главная</a> / <a asp-controller="Content" asp-action="Index">Управление материалом</a>
+    <div class="row g-4 py-5 row-cols-1">
+        <div class="p-5 mb-4 bg-light rounded-3 ">
+            <form asp-controller="Content" asp-action="CreateCategory" method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label">Название</label>
+                    <input type="text" asp-for="Name" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label">Описание</label>
+                    <textarea asp-for="Description" class="form-control"></textarea>
+                </div>
+                <br />
+                <div class="form-group">
+                    @Html.AntiForgeryToken()
+                    <input type="submit" value="Добавить" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+ 
+@section Scripts{
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
