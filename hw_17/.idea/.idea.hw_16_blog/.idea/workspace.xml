@@ -9,19 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12a2685e-f90e-45c6-8d3f-956503390695" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.hw_16_blog/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.hw_17/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.hw_17/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.hw_17/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.hw_17/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw_17.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Interfaces/IUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Repositories/UserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/Views/Home/GetUser.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/EmailService.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_16_blog/.idea/.idea.hw_16_blog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_16_blog/.idea/.idea.hw_16_blog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_16_blog/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_16_blog/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_16_blog/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_16_blog/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/Data/ContentInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/Data/ContentInitializer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +113,7 @@
       <workItem from="1737132801336" duration="2001000" />
       <workItem from="1737199537816" duration="36000" />
       <workItem from="1737199609917" duration="549000" />
-      <workItem from="1737200612047" duration="14411000" />
+      <workItem from="1737200612047" duration="14755000" />
     </task>
     <servers />
   </component>

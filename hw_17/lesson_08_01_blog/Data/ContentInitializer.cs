@@ -22,11 +22,6 @@ public class ContentInitializer
         var users = context.Users.ToList();
         var randomUser = users.OrderBy(_ => _random.Next()).FirstOrDefault();
 
-        if (randomUser == null)
-        {
-            throw new InvalidOperationException("Unable to find a random user.");
-        }
-
         context.Publications.AddRange(
             new Publication
             {
