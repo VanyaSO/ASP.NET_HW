@@ -1,0 +1,23 @@
+@model hw_18.ViewModels.CreateSubjectViewModel
+
+<main role="main" class="pb-3 form-signin">
+    <h1 class="h3 mb-3 fw-normal text-center">Добавление предмета</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <form method="post" asp-action="CreateSubject" asp-controller="Journal">
+                <div class="form-group mb-3">
+                    <label asp-for="Name">Название</label>
+                    <input type="text" class="form-control" asp-for="Name" placeholder="Python">
+                </div>
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                
+                @Html.AntiForgeryToken()
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Добавить</button>
+            </form>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

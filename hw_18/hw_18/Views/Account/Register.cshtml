@@ -1,0 +1,45 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model hw_18.ViewModels.RegisterViewModel
+
+<main role="main" class="pb-3 form-signin">
+    <h1 class="h3 mb-3 fw-normal text-center">Регистрация</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <form method="post" asp-controller="Account" asp-action="Register">
+                <div class="form-group mb-3">
+                    <label asp-for="Email">Email</label>
+                    <input class="form-control" asp-for="Email" placeholder="Email">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="FirstName">Имя</label>
+                    <input class="form-control" asp-for="FirstName" placeholder="Имя">
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="LastName">Фамилия</label>
+                    <input class="form-control" asp-for="LastName" placeholder="Фамилия">
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Password">Пароль</label>
+                    <input class="form-control" asp-for="Password" placeholder="Пароль">
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="PasswordConfirm">Подтвердите пароль</label>
+                    <input class="form-control" asp-for="PasswordConfirm" placeholder="Подтвердите пароль">
+                    <span asp-validation-for="PasswordConfirm" class="text-danger"></span>
+                </div>
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                
+                @Html.AntiForgeryToken()
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Войти</button>
+            </form>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

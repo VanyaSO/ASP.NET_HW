@@ -1,0 +1,35 @@
+@using Microsoft.AspNetCore.Components.Web.HtmlRendering
+@model hw_18.ViewModels.LoginViewModel
+
+<main role="main" class="pb-3 form-signin">
+    <h1 class="h3 mb-3 fw-normal text-center">Вход</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <form method="post" asp-action="Login" asp-controller="Account" asp-route-returnUrl="@Model.ReturnUrl">
+                <div class="form-group mb-3">
+                    <label asp-for="Email">Email</label>
+                    <input type="email" class="form-control" asp-for="Email" placeholder="name@example.com">
+                </div>
+                
+                <div class="form-group mb-3">
+                    <label asp-for="Password">Пароль</label>
+                    <input type="password" class="form-control" asp-for="Password" placeholder="Пароль">
+                </div>
+                
+                <div class="checkbox mb-3">
+                    <label>
+                        <input type="checkbox" asp-for="RememberMe"> Запонмить меня
+                    </label>
+                </div>
+                
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                @Html.AntiForgeryToken()
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Войти</button>
+            </form>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
