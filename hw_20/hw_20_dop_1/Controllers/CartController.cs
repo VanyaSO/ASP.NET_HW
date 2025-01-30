@@ -42,7 +42,8 @@ namespace hw_20_dop_1.Controllers
                     BookId = Guid.Parse(bookId)
                 });
             }
-
+            
+            cart.LastUpdate = DateTime.Now;
             await _carts.UpdateCartAsync(cart);
             return CartDTO(cart);
         }

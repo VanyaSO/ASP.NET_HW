@@ -56,6 +56,10 @@ namespace hw_20_dop_1.Controllers
                 }).ToList()
             };
 
+            cart.LastUpdate = DateTime.Now;
+            cart.CartLines.Clear();
+            await _carts.UpdateCartAsync(cart);
+            
             await _orders.AddOrderAsync(newOrder);
             return OrderDTO(newOrder);
         }
