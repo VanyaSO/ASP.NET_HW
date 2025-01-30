@@ -56,6 +56,7 @@ public class PagedList<T> : List<T>
         var lambda = Expression.Lambda<Func<T, bool>>(body, parameter);
         return query.Where(lambda);
     }
+    
     private static IQueryable<T> Order(IQueryable<T> query, string propertyName, bool desc)
     {
         var parameter = Expression.Parameter(typeof(T), "x");

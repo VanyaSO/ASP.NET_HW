@@ -9,37 +9,161 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12a2685e-f90e-45c6-8d3f-956503390695" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Controllers/AccountController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Controllers/JournalController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Data/ApplicationContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Data/InitializerData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Helpers/ClaimsPrincipalExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Interfaces/IGrade.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Interfaces/ISubject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Models/DefaultAdmins.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Models/Grade.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Models/Subject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Models/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Repositories/GradeRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Repositories/SubjectRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/ViewModels/Journal/GradeUpdateViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/ViewModels/Journal/JournalViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/ViewModels/Journal/UserJournalViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/ViewModels/LoginViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/ViewModels/RegisterViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/ViewModels/UserViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Views/Account/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Views/Account/Login.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Views/Account/Register.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Views/Journal/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/.idea/.idea.hw_20/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/.idea/.idea.hw_20/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/.idea/.idea.hw_20/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/hw_20/Models/WeatherResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/hw_20/Models/WeatherTile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/hw_20/wwwroot/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/Data/ApplicationContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/Data/Initializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/Interfaces/IBook.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/Interfaces/ICart.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/Models/Author.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/Models/Book.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/Models/Cart.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/Models/CartLine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/Models/Genre.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/Models/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/ModelsDTO/BookDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/Repositories/BookRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/Repositories/CartRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_10/hw_10/obj/Debug/net8.0/hw_10.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_10/hw_10/obj/Debug/net8.0/hw_10.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_10/hw_10/obj/Debug/net8.0/hw_10.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_10/hw_10/obj/Debug/net8.0/hw_10.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/bin/Debug/net8.0/hw_10_dop_2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/bin/Debug/net8.0/hw_10_dop_2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/bin/Debug/net8.0/hw_10_dop_2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/bin/Debug/net8.0/hw_10_dop_2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/hw_10_dop_2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/hw_10_dop_2.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/hw_10_dop_2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/hw_10_dop_2.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/hw_10_dop_2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/hw_10_dop_2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/hw_10_dop_2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/hw_10_dop_2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/hw_10_dop_2.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/hw_10_dop_2.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/ref/hw_10_dop_2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/ref/hw_10_dop_2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/refint/hw_10_dop_2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_10/hw_10_dop_2/obj/Debug/net8.0/refint/hw_10_dop_2.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.hw_16_blog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hw_16_blog/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/Models/Pages/PagedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/Models/Pages/PagedList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_17/.idea/.idea.hw_16_blog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_17/.idea/.idea.hw_16_blog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_17/.idea/.idea.hw_17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_17/.idea/.idea.hw_17/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_17/lesson_08_01_blog/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/ref/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/ref/lesson_08_01_blog.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/refint/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/refint/lesson_08_01_blog.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18/hw_18/bin/Debug/net8.0/hw_18.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_18/hw_18/bin/Debug/net8.0/hw_18.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18/hw_18/bin/Debug/net8.0/hw_18.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_18/hw_18/bin/Debug/net8.0/hw_18.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/hw_18.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/hw_18.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/hw_18.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/hw_18.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/hw_18.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/hw_18.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/hw_18.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/hw_18.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/hw_18.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/hw_18.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/ref/hw_18.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/ref/hw_18.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/refint/hw_18.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/refint/hw_18.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18/hw_18/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_18/hw_18/wwwroot/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/.idea/.idea.hw_18_2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/.idea/.idea.hw_18_2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/.idea/.idea.hw_18_2/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/.idea/.idea.hw_18_2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Areas/Identity/Pages/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Data/ApplicationDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Data/Migrations/00000000000000_CreateIdentitySchema.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Data/Migrations/00000000000000_CreateIdentitySchema.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Data/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Views/Home/Privacy.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Views/Shared/_Layout.cshtml.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Views/Shared/_LoginPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/app.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/hw_18_2.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/obj/Debug/net8.0/hw_18_2.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/obj/Debug/net8.0/hw_18_2.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/obj/Debug/net8.0/hw_18_2.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/obj/Debug/net8.0/hw_18_2.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/obj/Debug/net8.0/hw_18_2.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/obj/Debug/net8.0/hw_18_2.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/obj/Debug/net8.0/hw_18_2.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/obj/Debug/net8.0/hw_18_2.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/obj/hw_18_2.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/obj/hw_18_2.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/obj/hw_18_2.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/js/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18_2/hw_18_2/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +214,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.lesson_08_01_blog: https">
+  <component name="RunManager" selected=".NET Launch Settings Profile.lesson_08_01_blog: http">
     <configuration name="lesson_08_01_blog: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/lesson_08_01_blog/lesson_08_01_blog.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -141,6 +265,9 @@
       <workItem from="1737199609917" duration="549000" />
       <workItem from="1737447454345" duration="551000" />
       <workItem from="1737551374888" duration="3562000" />
+      <workItem from="1738140912592" duration="431000" />
+      <workItem from="1738141826243" duration="234000" />
+      <workItem from="1738148574087" duration="47000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,6 @@
+@hw_20_HostAddress = http://localhost:5283
+
+GET {{hw_20_HostAddress}}/weather/
+Accept: application/json
+
+###

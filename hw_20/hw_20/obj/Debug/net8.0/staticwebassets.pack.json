@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_20/hw_20/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.hw_20.props",
+      "PackagePath": "build\\hw_20.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.hw_20.props",
+      "PackagePath": "buildMultiTargeting\\hw_20.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.hw_20.props",
+      "PackagePath": "buildTransitive\\hw_20.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.hw_20.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

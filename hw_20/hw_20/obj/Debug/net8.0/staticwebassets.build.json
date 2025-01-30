@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "pvfKNJuujmnuNTEJxziLiEf0KhOP8f7XhI4PYxrm4Fo=",
+  "Source": "hw_20",
+  "BasePath": "_content/hw_20",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "hw_20/wwwroot",
+      "Source": "hw_20",
+      "ContentRoot": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_20/hw_20/wwwroot/",
+      "BasePath": "_content/hw_20",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_20/hw_20/wwwroot/index.html",
+      "SourceId": "hw_20",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_20/hw_20/wwwroot/",
+      "BasePath": "_content/hw_20",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
+}
