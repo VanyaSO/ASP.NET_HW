@@ -9,20 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12a2685e-f90e-45c6-8d3f-956503390695" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../hw_19/hw_19/Models/TodoItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_19/hw_19/Models/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.hw_16_blog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hw_16_blog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/bin/Debug/net8.0/hw_20_dop_1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/bin/Debug/net8.0/hw_20_dop_1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/bin/Debug/net8.0/hw_20_dop_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/bin/Debug/net8.0/hw_20_dop_1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/hw_20_dop_1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/hw_20_dop_1.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/hw_20_dop_1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/hw_20_dop_1.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/hw_20_dop_1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/hw_20_dop_1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/hw_20_dop_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/hw_20_dop_1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/hw_20_dop_1.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/hw_20_dop_1.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/ref/hw_20_dop_1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/ref/hw_20_dop_1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/refint/hw_20_dop_1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/refint/hw_20_dop_1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_19/hw_19/Pages/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_19/hw_19/Pages/Index.cshtml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

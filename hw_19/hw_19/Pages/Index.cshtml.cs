@@ -108,10 +108,7 @@ public class IndexModel : PageModel
     private async Task<string> GetUserId()
     {
         var userName = User.FindFirstValue(ClaimTypes.Name);
-        
         var user = await _userManager.FindByNameAsync(userName);
-        if (user == null) RedirectToPage("/Login");
-        
         return user.Id;
     }
     
