@@ -1,0 +1,95 @@
+﻿@page
+@model IndexModel
+
+<div class="container m-5 p-2 rounded mx-auto bg-light shadow">
+    <div class="row m-1 p-4">
+        <div class="col">
+            <div class="p-1 h1 text-primary text-center mx-auto display-inline-block">
+                <i class="fa fa-check bg-primary text-white rounded p-2"></i>
+                <u>Todo Brave</u>
+            </div>
+        </div>
+    </div>
+    <div class="row m-1 p-3">
+        <div class="col col-11 mx-auto">
+            <form method="post">
+                <div class="row bg-white rounded shadow-sm p-2 add-todo-wrapper align-items-center justify-content-center">
+                    <div class="col">
+                        <input class="form-control form-control-lg border-0 add-todo-input bg-transparent rounded" type="text" name="name" id="add-name" placeholder="Add new ..">
+                    </div>
+                    <div class="col-auto px-0 mx-0 mr-2">
+                        <button type="submit" class="btn btn-primary">Add</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="p-2 mx-4 border-black-25 border-bottom"></div>
+    <div class="row mx-1 px-5 pb-3 w-80">
+        <div class="col mx-auto">
+            <div id="editForm" class="row bg-white rounded shadow-sm p-2 mb-4 add-todo-wrapper align-items-center justify-content-center">
+                <form asp-page-handler="Update" method="post" class="px-3 rounded">
+                    <input type="hidden" id="edit-id" name="id">
+                    <div class="row align-items-center todo-item">
+                        <div class="col-auto m-1 p-0 d-flex align-items-center">
+                            <input type="checkbox" id="edit-isComplete" name="isComplete" />
+                        </div>
+                        <div class="col px-1 m-1 d-flex align-items-center">
+                            <input type="text" id="edit-name" name="name" class="form-control form-control-lg border-0 edit-todo-input">
+                        </div>
+                        <div class="col-auto m-1 p-0 px-3 d-none"></div>
+                        <div class="col-auto m-1 p-0">
+                            <div class="d-flex align-items-center gap-2" style="margin-right: 1px">
+                                <input type="submit" value="Save" class="btn btn-primary">
+                                <a onclick="closeInput()" class="btn btn-danger text-light">Close</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div id="todos">
+                @if (Model.TodoItems.Count > 0)
+                {
+                    @foreach (var item in Model.TodoItems)
+                    {
+                        <div class="row px-3 align-items-center todo-item rounded">
+                            <div class="col-auto m-1 p-0 px-3">
+                                <input type="checkbox" checked="@item.IsComplete" disabled>
+                            </div>
+                            <div class="col px-1 m-1 d-flex align-items-center">
+                                <input type="text" class="form-control form-control-lg border-0 edit-todo-input bg-transparent rounded px-3" value="@item.Name" readonly title="@item.Name">
+                                <input type="text" id="edit-name" class="form-control form-control-lg border-0 edit-todo-input rounded px-3 d-none" value="@item.Name">
+                            </div>
+                            <div class="col-auto m-1 p-0">
+                                <div class="d-flex align-items-center">
+                                    <button class="btn btn-info m-0 p-0 p-2 text-light me-2" style="min-width: 70px" onclick="displayEditForm('@item.Id', '@item.Name', '@item.IsComplete')" type="button">Edit</button>
+                                    <form method="post" asp-page-handler="Delete">
+                                        <input type="hidden" name="id" value="@item.Id">
+                                        <button class="btn btn-danger m-0 p-0 p-2 text-light" style="min-width: 70px">Delete</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script>
+        function closeInput() {
+            document.getElementById('editForm').style.display = 'none';
+        }
+
+        function displayEditForm(id, name, isComplete) {
+            console.log(id, name, isComplete);
+            document.getElementById('edit-name').value = name;
+            document.getElementById('edit-id').value = id;
+            document.getElementById('edit-isComplete').checked = isComplete === 'True';
+            document.getElementById('editForm').style.display = 'block';
+        }
+    </script>
+}
