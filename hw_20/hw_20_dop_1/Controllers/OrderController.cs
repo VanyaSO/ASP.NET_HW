@@ -84,7 +84,6 @@ namespace hw_20_dop_1.Controllers
             {
                 Id = orderLine.Book.Id,
                 Title = orderLine.Book.Title,
-                Description = orderLine.Book.Description,
                 Price = orderLine.Book.Price
             },
             TotalSum = orderLine.Quantity * orderLine.Book.Price
