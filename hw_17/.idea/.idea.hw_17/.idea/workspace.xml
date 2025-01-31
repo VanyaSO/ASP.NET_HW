@@ -9,35 +9,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12a2685e-f90e-45c6-8d3f-956503390695" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Controllers/AccountController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Controllers/JournalController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Data/ApplicationContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Data/InitializerData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Interfaces/IGrade.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Interfaces/ISubject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Models/Grade.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Models/Subject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Models/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Repositories/GradeRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Repositories/SubjectRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/ViewModels/Journal/GradeUpdateViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/ViewModels/Journal/JournalViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/ViewModels/Journal/UserJournalViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/ViewModels/LoginViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/ViewModels/RegisterViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/ViewModels/UserViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Views/Account/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Views/Account/Login.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Views/Account/Register.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw_18/hw_18/Views/Journal/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_21/hw_21/AccountJob/AccountDelete.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_21/hw_21/Controllers/AccountController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_21/hw_21/Data/ApplicationContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_21/hw_21/Data/Initializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw_21/hw_21/Models/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hw_16_blog/.idea/.idea.hw_16_blog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_16_blog/.idea/.idea.hw_16_blog/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_16_blog/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_16_blog/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw_16_blog/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_16_blog/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.hw_16_blog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hw_16_blog/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.hw_17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hw_17/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/bin/Debug/net8.0/lesson_08_01_blog.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/lesson_08_01_blog.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/ref/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/ref/lesson_08_01_blog.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/refint/lesson_08_01_blog.dll" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_08_01_blog/obj/Debug/net8.0/refint/lesson_08_01_blog.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/hw_18.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/hw_18.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/hw_18.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_18/hw_18/obj/Debug/net8.0/hw_18.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_18/hw_18/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_18/hw_18/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_20/hw_20/obj/Debug/net8.0/hw_20.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_20/hw_20/obj/Debug/net8.0/hw_20.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_20/hw_20/obj/Debug/net8.0/hw_20.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_20/hw_20/obj/Debug/net8.0/hw_20.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_20/hw_20/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_20/hw_20/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/hw_20_dop_1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/hw_20_dop_1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/hw_20_dop_1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/Debug/net8.0/hw_20_dop_1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../hw_20/hw_20_dop_1/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +49,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/ivanushachov/Desktop/STEP/ASP.NET/ASP.NET_HW/hw_16_blog/lesson_08_01_blog/Data/ApplicationContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lesson_08_01_blog/Views/Shared/Components/Subscribe/Subscribe.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/80c6d1b8295b4a398ea052291bf45f0f1c00/4a/51451fa9/EmailConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -139,6 +137,10 @@
       <workItem from="1737199609917" duration="549000" />
       <workItem from="1737385428018" duration="1771000" />
       <workItem from="1737551295912" duration="77000" />
+      <workItem from="1738323237039" duration="124000" />
+      <workItem from="1738324300415" duration="193000" />
+      <workItem from="1738327668220" duration="117000" />
+      <workItem from="1738328940343" duration="1838000" />
     </task>
     <servers />
   </component>
@@ -153,19 +155,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/lesson_08_01_blog/Controllers/SubscribersController.cs</url>
-          <line>66</line>
-          <properties documentPath="$PROJECT_DIR$/lesson_08_01_blog/Controllers/SubscribersController.cs" containingFunctionPresentation="Method 'EmailNewsletter'">
-            <startOffsets>
-              <option value="1906" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1929" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/lesson_08_01_blog/Controllers/SubscribersController.cs</url>
           <line>48</line>
